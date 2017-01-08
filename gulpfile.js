@@ -1,8 +1,8 @@
 var gulp = require('gulp'),
-    gulpWatch = require('gulp-watch'),
-    del = require('del'),
-    runSequence = require('run-sequence'),
-    argv = process.argv;
+  gulpWatch = require('gulp-watch'),
+  del = require('del'),
+  runSequence = require('run-sequence'),
+  argv = process.argv;
 
 
 /**
@@ -36,21 +36,30 @@ var tslint = require('ionic-gulp-tslint');
 
 var isRelease = argv.indexOf('--release') > -1;
 
-gulp.task('watch', ['clean'], function(done){
+gulp.task('watch', ['clean'], function (done) {
   runSequence(
-    ['sass', 'html', 'fonts', 'scripts'],
-    function(){
-      gulpWatch('app/**/*.scss', function(){ gulp.start('sass'); });
-      gulpWatch('app/**/*.html', function(){ gulp.start('html'); });
-      buildBrowserify({ watch: true }).on('end', done);
+    ['images', 'sass', 'html', 'fonts', 'scripts'],
+    function () {
+      gulpWatch('app/**/*.scss', function () {
+        gulp.start('sass');
+      });
+      gulpWatch('app/**/*.html', function () {
+        gulp.start('html');
+      });
+      gulpWatch('app/assets/images/*', function () {
+        gulp.start('images');
+      });
+      buildBrowserify({
+        watch: true
+      }).on('end', done);
     }
   );
 });
 
-gulp.task('build', ['clean'], function(done){
+gulp.task('build', ['clean'], function (done) {
   runSequence(
-    ['sass', 'html', 'fonts', 'scripts'],
-    function(){
+    ['images', 'sass', 'html', 'fonts', 'scripts'],
+    function () {
       buildBrowserify({
         minify: isRelease,
         browserifyOptions: {
@@ -64,11 +73,17 @@ gulp.task('build', ['clean'], function(done){
   );
 });
 
+
+gulp.task('images', function () {
+  del('www/build/assets/images');
+  return gulp.src(['app/assets/images/*'])
+    .pipe(gulp.dest('www/build/assets/images'));
+});
 gulp.task('sass', buildSass);
 gulp.task('html', copyHTML);
 gulp.task('fonts', copyFonts);
 gulp.task('scripts', copyScripts);
-gulp.task('clean', function(){
+gulp.task('clean', function () {
   return del('www/build');
 });
 gulp.task('lint', tslint);

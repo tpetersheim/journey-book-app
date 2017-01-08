@@ -28,8 +28,8 @@
     "tslint-ionic-rules": "0.0.4",
     "run-sequence": "1.1.5"
   },
-  "name": "sidemenutabs",
-  "description": "SidemenuTabs: An Ionic project",
+  "name": "journeybook",
+  "description": "Journey Book",
   "cordovaPlugins": [
     "cordova-plugin-device",
     "cordova-plugin-console",

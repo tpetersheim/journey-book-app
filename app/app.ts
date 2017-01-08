@@ -5,13 +5,14 @@ import {TabsPage} from './pages/tabs/tabs';
 import {HomePage} from './pages/home/home';
 import {ContactPage} from './pages/contact/contact';
 import {AboutPage} from './pages/about/about';
+import { UpComponent } from './pages/up/up.component';
 
 @Component({
   templateUrl: 'build/app.html',
   providers: [NavController]
 })
 export class MyApp {
-  @ViewChild('nav') nav : NavController;
+  @ViewChild('nav') nav: NavController;
   private rootPage: any;
   private pages: any[];
 
@@ -19,10 +20,11 @@ export class MyApp {
     this.menu = menu;
     this.pages = [
         { title: 'Home', component: HomePage },
+        { title: 'Up', component: UpComponent },
         { title: 'Contact', component: ContactPage },
         { title: 'About', component: AboutPage }
     ];
-    this.rootPage = TabsPage;
+    this.rootPage = HomePage;
 
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.

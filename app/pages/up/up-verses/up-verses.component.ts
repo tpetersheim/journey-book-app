@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-// import {DomSanitizer} from '@angular/platform-browser';
+import {DomSanitizationService, SafeHtml} from '@angular/platform-browser';
 import {NavController} from 'ionic-angular';
 
 @Component({
@@ -7,11 +7,11 @@ import {NavController} from 'ionic-angular';
 })
 export class UpVersesComponent {
 
-  data: Array<{ title: string, details: string, icon: string, showDetails: boolean }> = [];
+  data: Array<{ title: string, details: SafeHtml, icon: string, showDetails: boolean }> = [];
   private iconClosed: string = 'arrow-dropleft-circle';
   private iconOpen: string = 'arrow-dropdown-circle';
 
-  constructor(private navCtrl: NavController/*, private sanitizer: DomSanitizer*/) {
+  constructor(private navCtrl: NavController, private sanitizer: DomSanitizationService) {
     this.buildVersesData();
   }
 
@@ -48,7 +48,7 @@ export class UpVersesComponent {
   private buildVerse(title: string, details: string) {
     return {
         title: title,
-        details: details,//this.sanitizer.bypassSecurityTrustHtml(details),
+        details: this.sanitizer.bypassSecurityTrustHtml(details),
         icon: this.iconClosed,
         showDetails: false
       };

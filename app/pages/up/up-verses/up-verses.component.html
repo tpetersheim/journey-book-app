@@ -8,22 +8,38 @@
 </ion-header>
 <ion-content padding class="up-verses">
   <h3>Read this stuff</h3>
+  
+    <ion-list>
+      <ion-item padding *ngFor="let d of data" (click)="toggleDetails(d)">
+        <ion-icon color="primary" item-right [name]="d.icon"></ion-icon>
+        {{d.title}}
+        <div *ngIf="d.showDetails" [innerHtml]='d.details'></div>
+      </ion-item>
+    </ion-list>
+
+<br><br>
   <div class="verse">
     <h4>Book 4:4-6</h4>
     <p>
-      4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula mollis quam, nec fringilla nibh lacinia eu. 5 Phasellus ullamcorper bibendum sagittis. Duis viverra lacus elit, ac varius urna mollis a. In pulvinar pretium mi. Donec in nibh vulputate, bibendum sapien quis, scelerisque tortor.
+      4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula mollis quam, nec fringilla nibh lacinia eu. 5
+      Phasellus ullamcorper bibendum sagittis. Duis viverra lacus elit, ac varius urna mollis a. In pulvinar pretium mi.
+      Donec in nibh vulputate, bibendum sapien quis, scelerisque tortor.
     </p>
     <p>
-      6 Aliquam venenatis nulla nec commodo semper. Nulla eu euismod risus. Nullam interdum bibendum tristique. Nam fringilla ut diam ut fermentum.
+      6 Aliquam venenatis nulla nec commodo semper. Nulla eu euismod risus. Nullam interdum bibendum tristique. Nam fringilla ut
+      diam ut fermentum.
     </p>
   </div>
   <div class="verse">
     <h4>Book 8:10-12</h4>
     <p>
-      10 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula mollis quam, nec fringilla nibh lacinia eu. 11 Phasellus ullamcorper bibendum sagittis. Duis viverra lacus elit, ac varius urna mollis a. In pulvinar pretium mi. Donec in nibh vulputate, bibendum sapien quis, scelerisque tortor.
+      10 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula mollis quam, nec fringilla nibh lacinia eu. 11
+      Phasellus ullamcorper bibendum sagittis. Duis viverra lacus elit, ac varius urna mollis a. In pulvinar pretium mi.
+      Donec in nibh vulputate, bibendum sapien quis, scelerisque tortor.
     </p>
     <p>
-      12 Aliquam venenatis nulla nec commodo semper. Nulla eu euismod risus. Nullam interdum bibendum tristique. Nam fringilla ut diam ut fermentum.
+      12 Aliquam venenatis nulla nec commodo semper. Nulla eu euismod risus. Nullam interdum bibendum tristique. Nam fringilla
+      ut diam ut fermentum.
     </p>
   </div>
 </ion-content>

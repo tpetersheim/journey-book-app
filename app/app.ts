@@ -1,7 +1,6 @@
 import {Component, ViewChild} from '@angular/core';
 import {Platform, ionicBootstrap, MenuController, NavController} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
-import {TabsPage} from './pages/tabs/tabs';
 import {HomePage} from './pages/home/home';
 import {ContactPage} from './pages/contact/contact';
 import {AboutPage} from './pages/about/about';
@@ -24,7 +23,7 @@ export class MyApp {
         { title: 'Contact', component: ContactPage },
         { title: 'About', component: AboutPage }
     ];
-    this.rootPage = HomePage;
+    this.rootPage = UpComponent;
 
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.

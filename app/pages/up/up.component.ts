@@ -1,7 +1,4 @@
 import {Component} from '@angular/core';
-import {HomePage} from '../home/home';
-import {AboutPage} from '../about/about';
-import {ContactPage} from '../contact/contact';
 import { UpVersesComponent } from './up-verses/up-verses.component';
 import { UpPracticeComponent } from './up-practice/up-practice.component';
 import { UpToolsComponent } from './up-tools/up-tools.component';

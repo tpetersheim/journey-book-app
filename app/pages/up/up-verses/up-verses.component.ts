@@ -23,7 +23,7 @@ export class UpVersesComponent {
     <p>
       4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula mollis quam, nec fringilla nibh lacinia eu. 5
       Phasellus ullamcorper bibendum sagittis. Duis viverra lacus elit, ac varius urna mollis a. In pulvinar pretium mi.
-      Donec in nibh vulputate, bibendum sapien quis, scelerisque tortor.
+      Donec in nibh vulpuate, bibendum sapien quis, scelerisque tortor.
     </p>
     <p>
       6 Aliquam venenatis nulla nec commodo semper. Nulla eu euismod risus. Nullam interdum bibendum tristique. Nam fringilla ut

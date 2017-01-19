@@ -1,10 +1,10 @@
 import { Component, ViewChild } from '@angular/core';
-import { Platform, Nav } from 'ionic-angular';
-import { StatusBar, Splashscreen } from 'ionic-native';
+import { Nav, Platform } from 'ionic-angular';
+import { Splashscreen, StatusBar } from 'ionic-native';
 
-import { HomePage } from './home/home';
-import { ContactPage } from './contact/contact';
 import { AboutPage } from './about/about';
+import { ContactPage } from './contact/contact';
+import { HomePage } from './home/home';
 import { UpComponent } from './up/up.component';
 
 @Component({
@@ -12,7 +12,7 @@ import { UpComponent } from './up/up.component';
 })
 export class AppComponent {
   @ViewChild(Nav) nav: Nav;
-  rootPage: any = HomePage;
+  rootPage: any = UpComponent;
   pages: Array<{ title: string, component: any }>;
 
   constructor(private platform: Platform) {

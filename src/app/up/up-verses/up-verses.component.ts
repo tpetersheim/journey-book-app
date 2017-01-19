@@ -1,6 +1,9 @@
-import {Component} from '@angular/core';
-import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
-import {NavController} from 'ionic-angular';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+
+import { Component } from '@angular/core';
+import { DataService } from './../../core/data.service/data.service';
+import { NavController } from 'ionic-angular';
+import { VerseModel } from './../../core/data.service/models/verse.model';
 
 @Component({
   selector: 'page-up-verses',
@@ -8,51 +11,38 @@ import {NavController} from 'ionic-angular';
 })
 export class UpVersesComponent {
 
-  data: Array<{ title: string, details: SafeHtml, icon: string, showDetails: boolean }> = [];
+  verseItems: Array<{ title: string, details: SafeHtml, icon: string, showDetails: boolean }> = [];
   private iconClosed: string = 'arrow-dropleft';
   private iconOpen: string = 'arrow-dropdown';
+  private dataKey: string = 'up';
 
-  constructor(private navCtrl: NavController, private sanitizer: DomSanitizer) {
-    this.buildVersesData();
+  constructor(private navCtrl: NavController, private sanitizer: DomSanitizer, private dataService: DataService) {
+    this.loadVerses();
   }
 
-  private buildVersesData() {
-    this.data = [];
-    this.data.push(this.buildVerse(
-      'Book 4:4-6',
-      `
-    <p>
-      4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula mollis quam, nec fringilla nibh lacinia eu. 5
-      Phasellus ullamcorper bibendum sagittis. Duis viverra lacus elit, ac varius urna mollis a. In pulvinar pretium mi.
-      Donec in nibh vulpuate, bibendum sapien quis, scelerisque tortor.
-    </p>
-    <p>
-      6 Aliquam venenatis nulla nec commodo semper. Nulla eu euismod risus. Nullam interdum bibendum tristique. Nam fringilla ut
-      diam ut fermentum.
-    </p>`));
-
-    this.data.push(this.buildVerse(
-      'Book 8:10-12',
-      `
-      <p>
-      10 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula mollis quam, nec fringilla nibh lacinia eu. 11
-      Phasellus ullamcorper bibendum sagittis. Duis viverra lacus elit, ac varius urna mollis a. In pulvinar pretium mi.
-      Donec in nibh vulputate, bibendum sapien quis, scelerisque tortor.
-    </p>
-    <p>
-      12 Aliquam venenatis nulla nec commodo semper. Nulla eu euismod risus. Nullam interdum bibendum tristique. Nam fringilla
-      ut diam ut fermentum.
-    </p>
-      `));
+  private loadVerses() {
+    this.dataService.getVerses(this.dataKey).subscribe((verses: VerseModel[]) => {
+      this.verseItems = [];
+      for (let verse of verses) {
+        this.addVerse(verse.title, verse.content);
+      }
+      console.log(this.verseItems);
+    }, (err) => {      
+      console.log(err);
+    });
   }
 
-  private buildVerse(title: string, details: string) {
+  private addVerse(title: string, content: string) {
+    this.verseItems.push(this.buildVerse(title, content));
+  }
+
+  private buildVerse(title: string, content: string) {
     return {
-        title: title,
-        details: this.sanitizer.bypassSecurityTrustHtml(details),
-        icon: this.iconClosed,
-        showDetails: false
-      };
+      title: title,
+      details: this.sanitizer.bypassSecurityTrustHtml(content),
+      icon: this.iconClosed,
+      showDetails: false
+    };
   }
 
 

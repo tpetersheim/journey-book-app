@@ -1,17 +1,30 @@
-import { NgModule, ErrorHandler } from '@angular/core';
-import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-// import { Storage } from '@ionic/storage';
+import { CloudModule, CloudSettings } from '@ionic/cloud-angular';
+import { ErrorHandler, NgModule } from '@angular/core';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
-import { AppComponent } from './app.component';
-import { HomePage } from './home/home';
-import { ContactPage } from './contact/contact';
 import { AboutPage } from './about/about';
-
+import { AppComponent } from './app.component';
+import { ContactPage } from './contact/contact';
+import { CoreModule } from './core/core.module'
+import { HomePage } from './home/home';
+import { HttpModule } from '@angular/http';
 import { UpComponent } from './up/up.component';
-import { UpVersesComponent } from './up/up-verses/up-verses.component';
 import { UpPracticeComponent } from './up/up-practice/up-practice.component';
 import { UpToolsComponent } from './up/up-tools/up-tools.component';
+import { UpVersesComponent } from './up/up-verses/up-verses.component';
+
+// import { Storage } from '@ionic/storage';
+
+
+
+
+
+
+
+
+
+
+
 
 const cloudSettings: CloudSettings = {
   'core': {
@@ -20,6 +33,12 @@ const cloudSettings: CloudSettings = {
 };
 
 @NgModule({
+  imports: [
+    IonicModule.forRoot(AppComponent),
+    CloudModule.forRoot(cloudSettings),
+    CoreModule,
+    HttpModule
+  ],
   declarations: [
     AppComponent,
     HomePage,
@@ -30,11 +49,6 @@ const cloudSettings: CloudSettings = {
     UpPracticeComponent,
     UpToolsComponent
   ],
-  imports: [
-    IonicModule.forRoot(AppComponent),
-    CloudModule.forRoot(cloudSettings)
-  ],
-  bootstrap: [IonicApp],
   entryComponents: [
     AppComponent,
     HomePage,
@@ -45,8 +59,10 @@ const cloudSettings: CloudSettings = {
     UpPracticeComponent,
     UpToolsComponent
   ],
-  providers: [/*Storage*/
+  providers: [
+    /*Storage,*/
     { provide: ErrorHandler, useClass: IonicErrorHandler }
-  ]
+  ],
+  bootstrap: [IonicApp]
 })
 export class AppModule { }

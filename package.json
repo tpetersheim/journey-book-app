@@ -1,6 +1,6 @@
 {
-  "name": "upinout",
-  "description": "Journey Book: Up, In, Out",
+  "name": "replicate-jesus",
+  "description": "Replicate Jesus Discipleship Book by Journey Mennonite Church",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -41,5 +41,11 @@
     "cordova-plugin-splashscreen",
     "ionic-plugin-keyboard"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
+    }
+  ]
 }

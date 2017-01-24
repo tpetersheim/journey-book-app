@@ -6,25 +6,16 @@ import { AboutPage } from './about/about';
 import { AppComponent } from './app.component';
 import { ContactPage } from './contact/contact';
 import { CoreModule } from './core/core.module'
+import { HeaderComponent } from './shared/header-component/header-component';
 import { HomePage } from './home/home';
 import { HttpModule } from '@angular/http';
 import { UpComponent } from './up/up.component';
 import { UpPracticeComponent } from './up/up-practice/up-practice.component';
 import { UpToolsComponent } from './up/up-tools/up-tools.component';
 import { UpVersesComponent } from './up/up-verses/up-verses.component';
+import { VersesComponent } from './shared/verses/verses.component';
 
 // import { Storage } from '@ionic/storage';
-
-
-
-
-
-
-
-
-
-
-
 
 const cloudSettings: CloudSettings = {
   'core': {
@@ -47,7 +38,9 @@ const cloudSettings: CloudSettings = {
     UpComponent,
     UpVersesComponent,
     UpPracticeComponent,
-    UpToolsComponent
+    UpToolsComponent,
+    VersesComponent,
+    HeaderComponent
   ],
   entryComponents: [
     AppComponent,

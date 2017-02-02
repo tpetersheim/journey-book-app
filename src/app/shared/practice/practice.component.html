@@ -1,0 +1,17 @@
+<div>
+  <ion-list>
+    <ion-item *ngFor="let i of practiceItems">
+      <div [attr.id]="i.id" class="practice">
+        {{i.title}}
+        <div>
+          What is it:<br>
+          <div [innerHtml]='i.what'></div>
+        </div>
+        <div>
+          How to do it:<br>
+          <div [innerHtml]='i.how'></div>
+        </div>
+      </div>
+    </ion-item>
+  </ion-list>
+</div>

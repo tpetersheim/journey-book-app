@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataKey } from './../../core/data/models/data-key.type';
 import { NavController } from 'ionic-angular';
 
 @Component({
@@ -7,7 +8,7 @@ import { NavController } from 'ionic-angular';
 })
 export class UpVersesComponent {
 
-  dataKey: string = 'up';
+  dataKey: DataKey = 'up';
 
   constructor(private navCtrl: NavController) {
   }

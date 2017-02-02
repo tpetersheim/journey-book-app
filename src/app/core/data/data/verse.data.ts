@@ -1,6 +1,6 @@
 import { VerseModel } from './../models/verse.model';
 
-export const VerseData = [
+export const verseData: VerseModel[] = [
   {
     "key": "up",
     "title": "Genesis 28:16",

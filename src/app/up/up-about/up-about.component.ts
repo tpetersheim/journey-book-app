@@ -3,13 +3,12 @@ import { DataKey } from './../../core/data/models/data-key.type';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-up-practice',
-  templateUrl: 'up-practice.component.html'
+  selector: 'page-up-about',
+  templateUrl: 'up-about.component.html'
 })
-export class UpPracticeComponent {
-
+export class UpAboutComponent {
+  
   dataKey: DataKey = 'up';
 
-  constructor(private navCtrl: NavController) {
-  }
+  constructor(private navCtrl: NavController) {}
 }

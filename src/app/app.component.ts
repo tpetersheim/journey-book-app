@@ -12,7 +12,7 @@ import { UpComponent } from './up/up.component';
 })
 export class AppComponent {
   @ViewChild(Nav) nav: Nav;
-  rootPage: any = UpComponent;
+  rootPage: any = HomePage;
   pages: Array<{ title: string, component: any }>;
 
   constructor(private platform: Platform) {

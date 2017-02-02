@@ -1,7 +1,7 @@
-import {Component} from '@angular/core';
-import { UpVersesComponent } from './up-verses/up-verses.component';
+import { Component } from '@angular/core';
+import { UpAboutComponent } from './up-about/up-about.component';
 import { UpPracticeComponent } from './up-practice/up-practice.component';
-import { UpToolsComponent } from './up-tools/up-tools.component';
+import { UpVersesComponent } from './up-verses/up-verses.component';
 
 @Component({
   selector: 'page-up',
@@ -14,8 +14,8 @@ export class UpComponent {
   private tab3Root: any;
 
   constructor() {
-    this.tab1Root = UpVersesComponent;
-    this.tab2Root = UpPracticeComponent;
-    this.tab3Root = UpToolsComponent;
+    this.tab1Root = UpAboutComponent;
+    this.tab2Root = UpVersesComponent;
+    this.tab3Root = UpPracticeComponent;
   }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="org.journeymennonite.replicatejesus" version="0.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.journeymennonite.replicatejesus" version="0.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Replicate Jesus</name>
   <description>Replicate Jesus Discipleship Book by Journey Mennonite Church</description>
   <author email="journeymennotech@journeymennonite.org" href="http://journeymennonite.org">Journey Mennonite Church</author>

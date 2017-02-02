@@ -1,20 +1,21 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
-import { DataService } from './../../core/data.service/data.service';
-import { VerseModel } from './../../core/data.service/models/verse.model';
+import { DataKey } from './../../core/data/models/data-key.type';
+import { DataService } from './../../core/data/data.service';
+import { VerseModel } from './../../core/data/models/verse.model';
 
 @Component({
-  selector: 'verses-list',
+  selector: 'verses-content',
   templateUrl: 'verses.component.html'
 })
 export class VersesComponent implements OnInit {
-  @Input() dataKey: string;
-  verseItems: Array<{ title: string, details: SafeHtml, icon: string, showDetails: boolean }> = [];
+  @Input() dataKey: DataKey;
+  verseItems: Array<{ title: string, content: SafeHtml, icon: string, showContent: boolean }> = [];
   private iconClosed: string = 'arrow-dropleft';
   private iconOpen: string = 'arrow-dropdown';
 
-  constructor(private sanitizer: DomSanitizer, private dataService: DataService) { }
+  constructor(private sanitizer: DomSanitizer, private dataService: DataService) {}
 
   ngOnInit() {
     this.loadVerses();
@@ -26,9 +27,9 @@ export class VersesComponent implements OnInit {
       for (let verse of verses) {
         this.addVerse(verse.title, verse.content);
       }
-      console.log(this.verseItems);
-    }, (err) => {      
+    }, (err) => {
       console.log(err);
+      alert('Sorry, there was an error displaying Scriptures. Please try again or contact support.');
     });
   }
 
@@ -39,18 +40,18 @@ export class VersesComponent implements OnInit {
   private buildVerse(title: string, content: string) {
     return {
       title: title,
-      details: this.sanitizer.bypassSecurityTrustHtml(content),
+      content: this.sanitizer.bypassSecurityTrustHtml(content),
       icon: this.iconClosed,
-      showDetails: false
+      showContent: false
     };
   }
 
-  toggleDetails(data) {
-    if (data.showDetails) {
-      data.showDetails = false;
+  toggleContent(data) {
+    if (data.showContent) {
+      data.showContent = false;
       data.icon = this.iconClosed;
     } else {
-      data.showDetails = true;
+      data.showContent = true;
       data.icon = this.iconOpen;
     }
   }

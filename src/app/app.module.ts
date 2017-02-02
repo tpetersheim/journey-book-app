@@ -2,16 +2,18 @@ import { CloudModule, CloudSettings } from '@ionic/cloud-angular';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
+import { AboutComponent } from './shared/about/about.component';
 import { AboutPage } from './about/about';
 import { AppComponent } from './app.component';
 import { ContactPage } from './contact/contact';
 import { CoreModule } from './core/core.module'
-import { HeaderComponent } from './shared/header-component/header-component';
+import { HeaderComponent } from './shared/header/header.component';
 import { HomePage } from './home/home';
 import { HttpModule } from '@angular/http';
+import { PracticeComponent } from './shared/practice/practice.component';
+import { UpAboutComponent } from './up/up-about/up-about.component';
 import { UpComponent } from './up/up.component';
 import { UpPracticeComponent } from './up/up-practice/up-practice.component';
-import { UpToolsComponent } from './up/up-tools/up-tools.component';
 import { UpVersesComponent } from './up/up-verses/up-verses.component';
 import { VersesComponent } from './shared/verses/verses.component';
 
@@ -38,9 +40,11 @@ const cloudSettings: CloudSettings = {
     UpComponent,
     UpVersesComponent,
     UpPracticeComponent,
-    UpToolsComponent,
+    UpAboutComponent,
+    HeaderComponent,
     VersesComponent,
-    HeaderComponent
+    AboutComponent,
+    PracticeComponent
   ],
   entryComponents: [
     AppComponent,
@@ -50,7 +54,7 @@ const cloudSettings: CloudSettings = {
     UpComponent,
     UpVersesComponent,
     UpPracticeComponent,
-    UpToolsComponent
+    UpAboutComponent
   ],
   providers: [
     /*Storage,*/

@@ -12,22 +12,16 @@ export const practiceData: PracticeModel[] = [
     "title": "Praying Scriptures",
     "what": "<p>Is it hard for you to focus on a scripture sometimes, or is it hard to put yourself in the story of God that you find yourself reading?  This is a common struggle, and praying scriptures can be a helpful way to work through it.</p>",
     "how": `<p>Read Psalm 63:1-5.  Now after reading these words, restate them to God as if you are writing them yourself and saying them to your heavenly Father who you are believing loves you.</p>
- 
     <p><i>“O God, you are my God, earnestly I seek you;  my soul thirsts for you my body longs for you in a dry and weary land where there is no water…because your love is better than life, my lips will glorify you.  I will praise you as long as I live, and in your name I will lift up my hands.”</i></p>
-     
     <p>This may seem like it isn’t so difficult because David, the person who wrote this psalm, was talking to God, so the words relate well.  Try another passage that may be a bit more difficult:</p>
- 
     <p>II Corinthians 4:8-9.  As you read this scripture, think about when you have felt like you have no friends, like you have been left alone and have a huge decision to make.  Now think about that God is a person sitting right with you, caring about how you are feeling.  Can you then  thank him using some of these word pictures?</p>
-             
     <p><i>“Please, God, help me to know you surround me, that even though I feel pressure, I know that you will protect me.  I will not be destroyed!   I thank you, that I am made in your image, and you are the power that keeps me moving forward when I feel in despair, persecuted, struck down.  I will not be in despair.  Thank you, God!”</i></p>
-     
     <p>Continue using words of scripture to speak for you!</p>`
   },
   {
     "key": "up",
     "title": "Journaling Prayer",
     "what": `<p>It is simply taking your prayers to God and writing them out. God wants to hear from us.  He wants us to bring our joys, hardships, requests, and praise to Him, continually. The Bible tells us, <i>“Do not be anxious about anything, but in every situation by prayer and petition, with thanksgiving, present your requests to God.” Philippians 4:6</i></p>
-    
     <p>How many times do you sit down to pray and your mind wanders?  Do you forget to pray? Do you not feel like your prayers are being heard?  I think that we all go through times in life like this.  Prayer journaling may be a way to help.</p>`,
     "how": `<p>We are busy and distracted.  Slowing down to write out our prayers allows us to focus, slow down and be “hands on.”<br>
     Our journal can be a physical reminder to us to take time every day for God.<br>
@@ -37,7 +31,6 @@ export const practiceData: PracticeModel[] = [
     Repent of Sin<br>
     Ask for Others & Yourself<br>
     Yield to God today</p>
-     
     <p>Share your prayers with a small group. This allows others to support you and understand you deeply, and in turn you know them.</p>`
   },
   {
@@ -94,9 +87,7 @@ export const practiceData: PracticeModel[] = [
         <li>Listen and discuss a song with your small group.</li>
       </ul>
     </p>
-
     <p>Music speaks to us in ways the words alone cannot.  Listen closely to words and allow the Holy Spirit to speak to you through song.  Use it to comfort, celebrate, reflect, and inspire!</p>
-     
     <p>“Music expresses that which cannot be said and on which it is impossible to be silent.” –Victor Hugo</p>`
   },
   {
@@ -118,23 +109,17 @@ export const practiceData: PracticeModel[] = [
     "key": "up",
     "title": "SOZO for Abundant Living",
     "what": `<p>Do you ever have thoughts like these?  "I know I'm saved, so why is life such a struggle?  Why can't I control my emotions, thoughts or words?  Why is it so hard to let go of offense?  I confess my sin but I still feel shame.  Why don't I feel close to God?  This doesn't feel like abundant life."</p>
-
     <p>There are many Greek words in the New Testament that mean save, heal or deliver but Sozo includes all three.  Sozo means spiritual, physical and emotional wellness; wholeness in body, soul and spirit.</p>
-
     <p><i>“and you shall call His name Jesus, for He will save (Sozo) His people from their sins.” Matthew 1:21b.</i></p>`,
     "how": `<p>Sozo's aim is to increase your ability to hear God's voice and introduce you to the truth of who He is and who you really are; to heal hurts and remove hindrances that prevent you from walking in victory.</p>
-
     <p><i>The thief comes only to steal and kill and destroy. I came that they may have life and have it abundantly. John 10:10</i></p>
-
     <p>JMC has a Sozo Ministry Team that would love to walk with you. For more information or to schedule a Sozo call the church office at 620-663-4244.</p>`
   },
   {
     "key": "up",
     "title": "Two-Way Journaling",
     "what": `<p>Cultivating a Love Relationship with Jesus</p>
-
     <p><i>"My sheep hear my voice..."  John 10:27</i></p>
-
     <p>One way to hear God's voice is through a two-way conversation on paper.  The goal of this process is to deepen your relationship; not to get your "why's" answered, or to know the future, but hear Him speak words of edification, exhortation and comfort to you. <i>I Corinthians 14:3</i></p>`,
     "how": `<p>4 Keys to Hearing God's Voice.
       <ol>
@@ -144,9 +129,7 @@ export const practiceData: PracticeModel[] = [
         <li>Journal.  Write your question.  Sample:  "What do you want to tell me today?"  Then write what you hear or see.  Test it later.</li>
       </ol>
     </p>
-
     <p>It's important to test what you heard with scripture and the help of mature Christians.  Ask, "Do you sense this is from God?"</p>
-    
     <p><i>4 Keys to Hearing God's Voice</i>, Dr. Mark Virkler.  J@SH has DVDs.</p>`
   },
   {
@@ -156,28 +139,21 @@ export const practiceData: PracticeModel[] = [
     "how": `<p>Use the following questions and Scriptures to learn about the Holy Spirit.<br>
     Do you have Him?<br>
     John 3:5-7, I John 2:20 AMP</p>
-
     <p>Do you know Him?<br>
     John 14:16-17 AMP.  He is your Helper, Comforter, Advocate, Intercessor, Counselor, Strengthener, Standby, to be with you forever.<br>
     1 Corinthians 12:4-11.  He gives gifts and abilities and empowers as He chooses. </p>
-
     <p>Do you allow Him to teach you?<br>
     John 14:26 AMP.  He is your Teacher<br>
     I Corinthians 2:10-16.  He gives revelation, wisdom and understanding.</p>
-
     <p>Do you hear His Voice?<br>
     John 16:13.  Listen.  He will guide you into all truth.</p>
-
     <p>Are you continually being filled?<br>
     Ephesians 5:18b.  In the original Greek, "be filled" means "keep on being filled constantly and continually."</p>
-
     <p>How does that happen?<br>
     Living a godly life is a vital part of this process.<br>
     Exhale I John 1:9, Inhale John 15: 5, 10 & 11.  Your joy will overflow.</p>
-
     <p>Do you desire fellowship with Him?<br>
     John16:24.  Ask Him and wait for Him to come.  Welcome Him, praise Him, thank Him, listen to Him and enjoy His fellowship.</p>
-
     <p>Are you willing to serve?<br>
     Acts 1:8.  He will empower you and you will be a witness.</p>`
   },
@@ -186,7 +162,6 @@ export const practiceData: PracticeModel[] = [
     "title": "Solitutde",
     "what": `<p>Jesus showed us a pattern of taking space to be alone with God the Father (Mark 1:12-13, Mark 1:35, Luke 5:16, Luke 6:12-13, Matthew 14:13, John 6:15). Solitude and retreat allow us space to untangle our lives and minds, be still, and hear from God.</p>`,
     "how": `<p>Find at least an hour (more time is great!) to be quiet. Turn off or get away from all electronics and notifications (Alarms work with a phone on airplane mode!). Bring your Bible, something to write in and be still. As thoughts come to your mind that seem distracting, write them down and continue to sit in stillness. We don’t want to empty ourselves of everything, but rather to fill ourselves with Jesus. So as you find a place of stillness, begin to pray or read a passage of Scripture all the while asking God what he is speaking to you in your solitude.</p>
-
     <p>Be patient and remember that stillness and listening to God takes practice.</p>`
   },
 

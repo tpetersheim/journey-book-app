@@ -1,3 +1,34 @@
 practice-content {
+  .practice-container {
+    margin-top: 30px
+  }
 
+  .practice-item {
+    margin-bottom: 60px;
+  }
+
+  .title {
+    display: inline-block;
+    max-width: 85%;
+  }
+
+  .what-title, .how-title {
+    font-weight: bold;
+  }
+
+  .top-link {
+    float: right;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+
+  .practice-item-link-li {
+    margin-bottom: 5px;
+    list-style-image: none;
+  }
+
+  .practice-item-link {
+    font-size: 1.3em;
+    text-decoration: none;
+  }
 }

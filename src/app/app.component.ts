@@ -13,14 +13,14 @@ import { UpComponent } from './up/up.component';
 export class AppComponent {
   @ViewChild(Nav) nav: Nav;
   rootPage: any = HomePage;
-  pages: Array<{ title: string, component: any }>;
+  pages: Array<{ title: string, component: any, iconImage?: string }>;
 
   constructor(private platform: Platform) {
     this.initializeApp();
 
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'Up', component: UpComponent },
+      { title: 'Up', component: UpComponent, iconImage: 'u-icon' },
       { title: 'Contact', component: ContactPage },
       { title: 'About', component: AboutPage }
     ];

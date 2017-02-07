@@ -1,17 +1,31 @@
 <div>
-  <ion-list>
-    <ion-item *ngFor="let i of practiceItems">
-      <div [attr.id]="i.id" class="practice">
-        {{i.title}}
-        <div>
-          What is it:<br>
-          <div [innerHtml]='i.what'></div>
+
+  <ul id="top">
+    <li class="practice-item-link-li" *ngFor="let i of practiceItems">
+      <a class="practice-item-link" [href]="'#' + i.id" [innerText]="i.title"></a>
+    </li>
+  </ul>
+
+  <div class="practice-container">
+    <div *ngFor="let i of practiceItems">
+      <div [attr.id]="i.id" class="practice-item">
+
+        <div class="title-container">
+          <h3 class="title" [innerText]="i.title"></h3>
+          <a href="#top" class="top-link">Top</a>
         </div>
-        <div>
-          How to do it:<br>
-          <div [innerHtml]='i.how'></div>
+
+        <div class="what-container clearfix">
+          <span class="what-title">What is it:</span>
+          <div class="what-content" [innerHtml]='i.what'></div>
         </div>
+
+        <div class="how-container">
+          <span class="how-title">How to do it:</span>
+          <div class="how-content" [innerHtml]='i.how'></div>
+        </div>
+
       </div>
-    </ion-item>
-  </ion-list>
+    </div>
+  </div>
 </div>

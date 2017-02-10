@@ -167,18 +167,226 @@ export const practiceData: PracticeModel[] = [
 
 
 
+  {
+    "key": "in",
+    "title": "Experiencing the Bible in New Ways",
+    "what": `<p><i>For everything that was written in the past was written to teach us, so that through the endurance taught in the endurance taught in the Scriptures and the encouragement they provide we might have hope.  Romans 15:4</i></p>
+    <p>We all know that we should read the Bible but sometimes it is hard to find ways to bring it to life.  Interacting with our Bible’s in different ways can help us find meaning and keep it fresh and applicable to our life.</p>`,
+    "how": `<p>Here are some ways that we can experience the Bible differently:
+    <ul>
+      <li>Character/Topical Study with Small Group</li>
+      <li><a href="http://www.lifeway.com/Article/how-to-start-bible-journaling-in-six-easy-steps" target="_blank">Bible Journaling</a></li>
+      <li>Writing Scripture - Check out this monthly plan: <a href="http://www.swtblessings.com/" target="_blank">Sweet Blessings</a></li>
+      <li>The Bible App devotionals</li>
+      <li>Listen to an Audio version of the Bible</li>
+      <li><a href="https://thebibleproject.com/">The Bible Project</a> – great videos and other resources to compliment your Bible reading!</li>
+      <li>Mark up your Bible – write notes, underline, mark moments when something spoke to you</li>
+    </ul></p>
+    <p>Above all, the Bible comes alive when we share it with each other.  We all have different stories and backgrounds and have connected to the Bible in different ways.  Share your perspective with a friend or a group of friends and you will experience the Bible in new and powerful ways!</p>`
+  },
+  {
+    "key": "in",
+    "title": "APEST",
+    "what": `<p>Discovering your spiritual gifts is an important step in more fully understanding how you can contribute to the church and community.<br>
+    A – Apostolic<br>
+    P – Prophet<br>
+    E – Evangelist<br>
+    S – Shepherd<br>
+    T – Teacher</p>`,
+    "how": `<p><a href="http://fivefoldsurvey.com/" target="_blank">Take the test</a> to learn more about how God wired you! Learn more <a href="http://theforgottenways.org/apest/" target="_blank">here</a>.</p>`
+  },
+  {
+    "key": "in",
+    "title": "How to Confess Sin and Offer Grace",
+    "what": `<p><i>If we confess our sins, He is faithful and righteous to forgive us our sins and to cleanse us from all unrighteousness. 1 John 1:9</i><p>
+    <p>When we have sin in our lives, we often want to avoid God, fearing He will be angry.  But God is not human. While humans often want revenge, God’s desire is to restore our relationship with Him and for us be free of the burden. He already knows our action and is longing for us to agree with Him about sin and help us resist it.</p>
+    <p><i>Jesus kept saying, “Father, forgive them, because they don’t know what they’re doing.” Luke 23:34</i></p>
+    <p>How do I forgive others when they hurt me? It helps to understand that often people who hurt, are acting out of the pain they have experienced; pain that breaks God’s heart.  God doesn’t want any one created in His image to live a life of pain and hurt, that was never His plan for anyone.</p>`,
+    "how": `<p>Offering grace to yourself: Ask God for the desire to change. Consider sharing with a trusted friend what sin you are confessing and ask them to pray for you.</p>
+    <p>Offering grace to others: Ask God to help you see the person through His eyes and for the desire to forgive. Ask Him to give you love, perception, and compassion that will help you respond in a way that imitates Jesus.</p>`
+  },
+  {
+    "key": "in",
+    "title": "S.T.O.P. Method for Bible Study",
+    "what": `<p>A method for helping you understand what you are reading in the Bible.</p>`,
+    "how": `<p>What does it <b>SAY</b>?<br>
+    Think about what the words actually say and look up the meanings of any words you don’t know.</p>
+    <p>What were the <b>TIMES</b>?<br>
+    Consider what the times were like when the passage was written. What was the time period in history? What events were happening? What was important to the people at that time? It’s a great idea to look up this info in a reliable source.</p>
+    <p>What did it mean <b>ORIGINALLY</b>?<br>
+    Consider what the Bible passage meant when it was written. Think about who wrote it, who it was written for, and what it would have meant to people then.</p>
+    <p>What does it mean for me <b>PERSONALLY</b>?<br>
+    Think about what the Bible passage means for you personally. Knowing what you learned in the other steps, what can you learn and act on in your own life?</p>`
+  },
+  {
+    "key": "in",
+    "title": "Study through Prayers and Creeds",
+    "what": `<p>Using historical church literature, such as prayers and creeds, in order to connect to the broader Christian Church and God.  It is something done with a group of people as a form of corporate worship. Often prayers and creeds are recited as a group.  There can also be call and response readings. Lectionaries can be utilized for church services as well.  A lectionary is a book of scripture readings by week for a service throughout the year.</p>
+    <p>Incorporating prayers and creeds into worship encourages Christians to join together in voice and unity around central parts of faith. Participants are able to connect to the present Body of Christ, and the rich history of the Christian tradition.</p>`,
+    "how": `<p>Examples and Resources
+    <ul>
+      <li><a href="https://www.biblegateway.com/passage/?search=matthew+6%3A9-13&version=NIV" target="_blank">The Lord’s Prayer</a></li>
+      <li>Read Psalms together</li>
+      <li><a href="http://www.theopedia.com/nicene-creed" target="_blank">Nicene Creed</a></li>
+      <li><a href="http://www.theopedia.com/apostles-creed" target="_blank">Apostles Creed</a></li>
+      <li><a href="http://www.bcponline.org/" target="_blank">Book of Common Prayer</a></li>
+      <li><a href="http://lectionary.library.vanderbilt.edu/" target="_blank">Revised Common Lectionary</a></li>
+      <li><a href="http://www.relevantmagazine.com/god/5-prayers-changed-world" target="_blank">Some prayers to pray and study together</a> (Many more can be found with a little searching online)</li>
+    </ul></p>`
+  },
+  {
+    "key": "in",
+    "title": "Communion",
+    "what": `<p>Communion is an act of worship that helps us remember the work of Christ and look forward to his return to make all things new.</p>`,
+    "how": `<p>Prepare both the cup and the bread for a time of communion. You can get thoughts on different ways of taking communion <a href="http://www.rustyparts.com/wp/2006/01/29/how-to-take-communion/" target="_blank">here</a>.  You don’t need to have any special ability or knowledge to lead a time of communion. You can simply read 1 Corinthians 11:23-26 and then pass around the elements. You can add prayers, devotional thoughts or music as you feel comfortable.</p>`
+  },
+  {
+    "key": "in",
+    "title": "LIGHT",
+    "what": `<p>A simple acronym to help us check on how we are doing at living as missionaries where we live, work, and play.</p>`,
+    "how": `<p>L: Listen to the Holy Spirit
+    Make it a daily practice to listen to what God has to say to you.</p>
+    <p>I: Invite others to share a meal<br>
+    - You eat 21 meals a week. Make a plan to share 1-3 of those with people who don’t know Jesus.</p>
+    <p>G: Give a blessing<br>
+    - Look for ways to care about someone. It could be a neighbor who needs help with yard work or a coworker who could use a meal.</p>
+    <p>H: Hear from the Gospels<br>
+    - Read some words from Matthew, Mark, Luke, and John to learn from Jesus how to be like Jesus.</p>
+    <p>T: Take inventory of the day<br>
+    - At the end of each day, spend a few minutes reflecting on how your day has gone. Where did you meet with the Spirit? Where did you miss opportunities to meet with the Spirit?</p>`
+  },
 
   {
     "key": "in",
-    "title": "",
-    "what": ``,
-    "how": ``
+    "title": "Observations and Questions",
+    "what": `<p>Making observations and asking questions about the Bible as you read it to help you gain understanding and insight.</p>`,
+    "how": `<p>As you read through a passage of Scripture, write down things that you notice. It could be other parts of the Bible that relate to what you are reading, things about God, repetition of words, or anything else. Reread the passage and write down anything you have questions about. It could be about a person, a word, geography or anything else. If you are reading the same passage as someone else, share your observations with them and work together to answer your questions.</p>`
   },
-  
+
+
+
+
+
   {
     "key": "out",
-    "title": "",
-    "what": ``,
-    "how": ``
+    "title": "Who is sent to me?",
+    "what": `<p>God sends us each day on mission where we live, work, and play.  He also sends people to us; there are no coincidental connections.</p>`,
+    "how": `<p>Pray each morning that God will bring people across your path for whom you can be the incarnated Christ. Pray each morning that God will give you sensitivity to the Spirit as you encounter people. Reflect briefly at the end of the day; whom did God send to you? Did you meet them in the spirit of Jesus? How might you do better tomorrow?</p>`
+  },
+  {
+    "key": "out",
+    "title": "Talking about Jesus and the Gospel",
+    "what": `<p>1 Peter 3:15 tells us to, <i>“Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have.”</i>  As we learn to follow Jesus, we need to think about how to tell others about Jesus.</p>
+<p>Gospel means good news and how we talk about the good news matters! Bruxy Cavey talks about the gospel in 1, 3, and 30 words:<br>
+1 Word: Jesus<br>
+3 Words: Jesus is Lord<br>
+30 Words: The Gospel is the Good News that God has come to us through Christ to show His Love save us from sin share His life and to shut down religion</p>`,
+    "how": `<p>Practice talking about what the good news of Jesus means in your life with a Christian friend or your missional community. What does it mean for you that Jesus shows us God’s love? That he saves us from sin? That he shares his life with us? That he has shut down religion? What does it mean that Jesus is Lord?</p>`
+  },
+  {
+    "key": "out",
+    "title": "Throwing a Party",
+    "what": `<p>“The Gospel will not be heard until our front doors open, our tables are set, and we practice the art of hospitality, celebration & party!” – Hugh Halter (Happy Hour)</p>`,
+    "how": `<p><b>Planning</b>
+    <ul>
+      <li>Open up as much usable space in your home as possible. How many can you accommodate?</li>
+      <li>Many folks prefer casual dining experiences to sit down experiences.</li>
+    </ul></p>
+    <p><b>Pre-party</b>
+    <ul>
+      <li>Do clean the house.</li>
+      <li>Don’t leave the TV on.</li>
+      <li>Do have soft music on (refrain from playing Christian music).</li>
+      <li>Do have candles lit.</li>
+      <li>Prep your kids for what’s about to happen. Employ their help in hosting.</li>
+    </ul></p>
+    <p><b>As people arrive</b>
+    <ul>
+      <li>Turn the porch light on!</li>
+      <li>Invite a few outgoing guests to come early to be door greeters.</li>
+      <li>Have drinks & finger foods out. Inviting guests to eat as they arrive reduces awkwardness.</li>
+      <li>Introduce guests to other guests.</li>
+    </ul></p>
+    <p>To pray or not to pray? Know your audience. Some will feel like you are trying to trick them. 
+    Offer a warm welcome and a toast. Give directions about the food. Keep the mood light.</p>
+    <p><b>Party variations</b>
+    <ul>
+      <li>Happy Hour – a few simple finger foods and a drink depending on the season</li>
+      <li>Outdoor gathering around a fire.</li>
+      <li>Potluck – everyone brings a dish.</li>
+      <li>Dinner Club – 3-6 couples take turns hosting monthly dinners for a year. No kids!</li>
+      <li>Brai – all day gathering of friends for brunch and grill out.</li>
+    </ul></p>
+    <p>-Excerpts taken from <a href="http://hughhalter.com/books.htm" target="_blank">“Happy Hour” by Hugh Halter</a></p>`
+  },
+  {
+    "key": "out",
+    "title": "Know Your Neighbors",
+    "what": `<p>Jesus tells us to “love your neighbor as yourself” Mark 12:31. You can’t love your neighbors if you don’t know who they are!</p>`,
+    "how": `<p>Download and print a <a href="http://www.artofneighboring.com/wp-content/uploads/2016/01/blockmap-1.pdf" target="_blank">Block Map</a>. Use it to start knowing and remembering who lives around you. 
+    Try and learn your nearest neighbor’s names and occupations. If you can’t, you have somewhere to start in getting to know them!</p>
+    <p>Once you know your neighbors, start praying for them.</p>`
+  },
+  {
+    "key": "out",
+    "title": "How to see and meet needs where you live, work and play",
+    "what": `<p>Being a missionary!  We are called to make disciples of all nations (Matthew 28:19). A big part of making disciples, and our own faith journey, is the process of becoming more aware of the people and needs around us.  It takes intentionality of learning about ourselves, the culture that we are in, and creating relationships.</p>`,
+    "how": `<p>Listen - Spend time in prayer.  Ask for the Holy Spirit to open your eyes and ears throughout the day as you interact with friends, coworkers, and neighbors.</p>
+    <p>Follow - Get to know your neighbors and coworkers.  Engage people in conversation and learn. Learn about their work, hobbies, family, and history.  As relationships grow, follow the guidance of the Holy Spirit to know how to love those around you.  Be aware of the people and needs that God brings to you.</p>
+    <p>Act - Invite neighbors over for dinner, or take them a meal when they’re sick.  Join the Care Portal to help with needs in the community.  Participate in community events and make connections with those around you.</p>`
+  },
+  {
+    "key": "out",
+    "title": "How to Volunteer",
+    "what": `<p>IN HUMILITY<br>
+    <i>God resists the proud but gives grace to the humble.  Pr 3:34, Jms 4:6</i><br>
+    <i>Before his downfall a man’s heart is proud, but before honor comes humility. Pr 18:12</i><br>
+    <i>For everyone who exalts himself will be humbled and the one who humbles himself will be exalted. Lk 14:11</i></p>`,
+    "how": `<p>Mindset of a <b>humble</b> volunteer
+    <ul>
+      <li>I hope I can be helpful. I Cor 10:24; Phil 2:4</li>
+      <li>My opinions are not important unless asked for. Rom 12:16</li>
+      <li>How can I be most loving? I Cor 13:1-7</li>
+      <li>I need to listen. Jms 1:19</li>
+      <li>Our cultures/way of life are different and that’s ok. Rom 12:3</li>
+    </ul></p>
+    <p>Mindset of a <b>proud</b> volunteer
+    <ul>
+      <li>They need my help.</li>
+      <li>My opinions are truth and they need to know them.</li>
+      <li>How can I get them to be more like me?</li>
+      <li>I already know.</li>
+      <li>My culture/way of life is the “right” way.</li>
+    </ul></p>
+    <p>Focus of a <b>humble</b> volunteer
+    <ul>
+      <li>Me WITH/FOR Them (Servant) Phil 2:3-8</li>
+      <li>Hearts of the people with whom they are working I Sam 16:7</li>
+      <li>Relationships  I Cor 10:32-33</li>
+      <li>God’s glory I Cor 10:31</li>
+    </ul></p>
+    <p>Focus of a <b>proud</b> volunteer
+    <ul>
+      <li>Me VS Them (Super hero)</li>
+      <li>Circumstances of the people with whom they are working</li>
+      <li>Getting things done</li>
+      <li>My glory</li>
+    </ul></p>
+    <p>Attitude of a <b>humble</b> volunteer
+    <ul>
+      <li>Ok with letting things go Ps 34:14</li>
+      <li>Forgives easily Eph 4:32; Mt 6:14-15</li>
+      <li>Ok with not being understood/heard Mt 12:19</li>
+      <li>Does not judge others Mt 7:1-5</li>
+      <li>Looks for truth I Cor 13:6</li>
+    </ul></p>
+    <p>Attitude of a <b>proud</b> volunteer
+    <ul>
+      <li>Needs to be right</li>
+      <li>Holds grudge</li>
+      <li>Needs to be understood/heard</li>
+      <li>Judgmental</li>
+      <li>Points out all the wrongs</li>
+    </ul></p>`
   }
 ];

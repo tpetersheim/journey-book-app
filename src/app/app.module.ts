@@ -3,9 +3,8 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { AboutComponent } from './shared/about/about.component';
-import { AboutPage } from './about/about';
-import { AppComponent } from './app.component';
 import { ContactPage } from './contact/contact';
+import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module'
 import { HeaderComponent } from './shared/header/header.component';
 import { HomePage } from './home/home';
@@ -36,7 +35,6 @@ const cloudSettings: CloudSettings = {
     AppComponent,
     HomePage,
     ContactPage,
-    AboutPage,
     UpComponent,
     UpVersesComponent,
     UpPracticeComponent,
@@ -50,7 +48,6 @@ const cloudSettings: CloudSettings = {
     AppComponent,
     HomePage,
     ContactPage,
-    AboutPage,
     UpComponent,
     UpVersesComponent,
     UpPracticeComponent,

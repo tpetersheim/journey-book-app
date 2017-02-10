@@ -1,6 +1,11 @@
- <header-ion-wrapper>
-   <ion-title>Up - Scriptures</ion-title>
- </header-ion-wrapper>
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Up - Scriptures</ion-title>
+  </ion-navbar>
+</ion-header>
 <ion-content padding class="up-verses">
   <verses-content [dataKey]="dataKey"></verses-content>
 </ion-content>

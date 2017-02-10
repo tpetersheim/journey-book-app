@@ -2,7 +2,6 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { Splashscreen, StatusBar } from 'ionic-native';
 
-import { AboutPage } from './about/about';
 import { ContactPage } from './contact/contact';
 import { HomePage } from './home/home';
 import { UpComponent } from './up/up.component';
@@ -13,16 +12,15 @@ import { UpComponent } from './up/up.component';
 export class AppComponent {
   @ViewChild(Nav) nav: Nav;
   rootPage: any = HomePage;
-  pages: Array<{ title: string, component: any, iconImage?: string }>;
+  pages: Array<{ title: string, component: any, iconImage?: string, ionIcon?: string }>;
 
   constructor(private platform: Platform) {
     this.initializeApp();
 
     this.pages = [
-      { title: 'Home', component: HomePage },
+      { title: 'Home', component: HomePage, ionIcon: 'home' },
       { title: 'Up', component: UpComponent, iconImage: 'u-icon' },
-      { title: 'Contact', component: ContactPage },
-      { title: 'About', component: AboutPage }
+      { title: 'Contact', component: ContactPage, ionIcon: 'phone' }
     ];
   }
 

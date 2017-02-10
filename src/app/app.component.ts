@@ -12,15 +12,17 @@ import { UpComponent } from './up/up.component';
 export class AppComponent {
   @ViewChild(Nav) nav: Nav;
   rootPage: any = HomePage;
-  pages: Array<{ title: string, component: any, iconImage?: string, ionIcon?: string }>;
+  pages: Array<{ title: string, component: any, iconCss?: string, ionIcon?: string }>;
 
   constructor(private platform: Platform) {
     this.initializeApp();
 
     this.pages = [
       { title: 'Home', component: HomePage, ionIcon: 'home' },
-      { title: 'Up', component: UpComponent, iconImage: 'u-icon' },
-      { title: 'Contact', component: ContactPage, ionIcon: 'phone' }
+      { title: 'Up', component: UpComponent, iconCss: 'letter-icon up' },
+      { title: 'In', component: {}, iconCss: 'letter-icon in' },
+      { title: 'Out', component: {}, iconCss: 'letter-icon out' },
+      { title: 'Contact', component: ContactPage, ionIcon: 'call' }
     ];
   }
 

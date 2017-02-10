@@ -16,8 +16,74 @@
 // automatically applied to the <body> element in the app.
 
 ion-menu {
-  .menu-icon {
-    max-width: 25px;
-    max-height: 25px;
+
+  ion-icon {
+    font-size: 30px;
   }
+
+  ion-label span {
+    position: relative;
+    top: -1px;
+    left: 6px;
+  }
+}
+
+ion-header {
+  ion-icon {
+    font-size: 30px;
+  }
+}
+
+div.letter-icon {
+    display: inline-block;
+    border-radius: 50%;
+
+    width: 25px;
+    height: 25px;
+    padding: 1px;
+    
+    // background: #fff;
+    //border: 2px solid #666;
+    color: #fff;
+    text-align: center;
+    
+    // font: 32px Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+// .menu-icon {
+//     width: 25px;
+//     height: 25px;
+//     padding: 1px;
+// }
+
+// .header-icon {
+//     width: 25px;
+//     height: 25px;
+//     padding: 1px;
+// }
+
+.up {
+  background: #005160;
+}
+
+.up:before {
+  content: 'U'
+}
+
+.in {
+  background: #88c1cc;
+}
+
+.in:before {
+  content: 'I'
+}
+
+.out {
+  background: #ffd103;
+}
+
+.out:before {
+  content: 'O'
 }

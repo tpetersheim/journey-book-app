@@ -5,6 +5,8 @@ import { Splashscreen, StatusBar } from 'ionic-native';
 import { ContactPage } from './contact/contact';
 import { HomePage } from './home/home';
 import { UpComponent } from './up/up.component';
+import { InComponent } from './in/in.component';
+import { OutComponent } from './out/out.component';
 
 @Component({
   templateUrl: 'app.component.html'
@@ -20,8 +22,8 @@ export class AppComponent {
     this.pages = [
       { title: 'Home', component: HomePage, ionIcon: 'home' },
       { title: 'Up', component: UpComponent, iconCss: 'letter-icon up' },
-      { title: 'In', component: {}, iconCss: 'letter-icon in' },
-      { title: 'Out', component: {}, iconCss: 'letter-icon out' },
+      { title: 'In', component: InComponent, iconCss: 'letter-icon in' },
+      { title: 'Out', component: OutComponent, iconCss: 'letter-icon out' },
       { title: 'Contact', component: ContactPage, ionIcon: 'call' }
     ];
   }

@@ -15,10 +15,16 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+$up-color: #005160;
+$in-color: #88c1cc;
+$out-color: #ffd103;
+
 ion-menu {
 
   ion-icon {
     font-size: 30px;
+    position: relative;
+    top: 3px;
   }
 
   ion-label span {
@@ -31,6 +37,29 @@ ion-menu {
 ion-header {
   ion-icon {
     font-size: 30px;
+  }
+
+  .scroll-content {
+    overflow-y: hide;
+  }
+
+  &.up {
+
+    .toolbar-title, .bar-button {
+      color: white;
+    }
+
+    .toolbar-background {
+      background: $up-color;
+    }
+  }
+
+  &.in .toolbar-background {
+    background: $in-color;
+  }
+
+  &.out .toolbar-background {
+    background: $out-color;
   }
 }
 
@@ -64,26 +93,26 @@ div.letter-icon {
 //     padding: 1px;
 // }
 
-.up {
-  background: #005160;
+.letter-icon.up {
+  background: $up-color;
 }
 
-.up:before {
+.letter-icon.up:before {
   content: 'U'
 }
 
-.in {
-  background: #88c1cc;
+.letter-icon.in {
+  background: $in-color;
 }
 
-.in:before {
+.letter-icon.in:before {
   content: 'I'
 }
 
-.out {
-  background: #ffd103;
+.letter-icon.out {
+  background: $out-color;
 }
 
-.out:before {
+.letter-icon.out:before {
   content: 'O'
 }

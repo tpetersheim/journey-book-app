@@ -3,12 +3,20 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { AboutComponent } from './shared/about/about.component';
-import { ContactPage } from './contact/contact';
 import { AppComponent } from './app.component';
+import { ContactPage } from './contact/contact';
 import { CoreModule } from './core/core.module'
 import { HeaderComponent } from './shared/header/header.component';
 import { HomePage } from './home/home';
 import { HttpModule } from '@angular/http';
+import { InAboutComponent } from './in/in-about/in-about.component';
+import { InComponent } from './in/in.component';
+import { InPracticeComponent } from './in/in-practice/in-practice.component';
+import { InVersesComponent } from './in/in-verses/in-verses.component';
+import { OutAboutComponent } from './out/out-about/out-about.component';
+import { OutComponent } from './out/out.component';
+import { OutPracticeComponent } from './out/out-practice/out-practice.component';
+import { OutVersesComponent } from './out/out-verses/out-verses.component';
 import { PracticeComponent } from './shared/practice/practice.component';
 import { UpAboutComponent } from './up/up-about/up-about.component';
 import { UpComponent } from './up/up.component';
@@ -39,6 +47,14 @@ const cloudSettings: CloudSettings = {
     UpVersesComponent,
     UpPracticeComponent,
     UpAboutComponent,
+    InComponent,
+    InVersesComponent,
+    InPracticeComponent,
+    InAboutComponent,
+    OutComponent,
+    OutVersesComponent,
+    OutPracticeComponent,
+    OutAboutComponent,
     HeaderComponent,
     VersesComponent,
     AboutComponent,
@@ -51,7 +67,15 @@ const cloudSettings: CloudSettings = {
     UpComponent,
     UpVersesComponent,
     UpPracticeComponent,
-    UpAboutComponent
+    UpAboutComponent,
+    InComponent,
+    InVersesComponent,
+    InPracticeComponent,
+    InAboutComponent,
+    OutComponent,
+    OutVersesComponent,
+    OutPracticeComponent,
+    OutAboutComponent,
   ],
   providers: [
     /*Storage,*/

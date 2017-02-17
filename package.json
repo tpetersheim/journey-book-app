@@ -7,9 +7,9 @@
     "build": "ionic-app-scripts build",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-    "package:android": "ionic package build android --profile production --release",
+    "package:android": "ionic package build android --profile prod --release",
     "package:ios:dev": "ionic package build ios --profile dev",
-    "package:ios:prod": "ionic package build ios --profile production --release"
+    "package:ios:prod": "ionic package build ios --profile prod --release"
   },
   "dependencies": {
     "@angular/common": "2.2.1",

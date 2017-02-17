@@ -18,6 +18,11 @@
 $up-color: #005160;
 $in-color: #88c1cc;
 $out-color: #ffd103;
+$reg-font-size: 1.6rem;
+
+ion-app.md, ion-app.ios, .item-ios p, .item-md p  {
+  font-size: $reg-font-size;
+}
 
 ion-menu {
 

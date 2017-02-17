@@ -242,18 +242,22 @@ export const practiceData: PracticeModel[] = [
   },
   {
     "key": "in",
-    "title": "LIGHT",
-    "what": `<p>A simple acronym to help us check on how we are doing at living as missionaries where we live, work, and play.</p>`,
-    "how": `<p>L: Listen to the Holy Spirit
-    Make it a daily practice to listen to what God has to say to you.</p>
-    <p>I: Invite others to share a meal<br>
-    - You eat 21 meals a week. Make a plan to share 1-3 of those with people who don’t know Jesus.</p>
-    <p>G: Give a blessing<br>
-    - Look for ways to care about someone. It could be a neighbor who needs help with yard work or a coworker who could use a meal.</p>
-    <p>H: Hear from the Gospels<br>
-    - Read some words from Matthew, Mark, Luke, and John to learn from Jesus how to be like Jesus.</p>
-    <p>T: Take inventory of the day<br>
-    - At the end of each day, spend a few minutes reflecting on how your day has gone. Where did you meet with the Spirit? Where did you miss opportunities to meet with the Spirit?</p>`
+    "title": "BELLS – 5 Missional Habits ",
+    "what": `<p>From Michael Frost’s <i><a href="http://www.rupertsland.ca/wp-content/uploads/The-5-Habits-of-Highly-Missional-People-11.pdf" target="_blank">Five Habits of Highly Missional People</a></i></p>
+    <p>There was a time when church bells could be heard ringing out over the community alerting people to God’s activity. While this isn’t as common as it once was, these simple habits can help transform our lives into everyday reminders that God’s Kingdom is coming here on earth as it is in heaven.</p>`,
+    "how": `<p><b>B</b>less: <i>I will bless at least three people this week, including one person who is not yet a disciple of Jesus.</i><br>
+ - Blessing may include: Words of affirmation, Intentional acts of kindness or Gifts.</p>
+
+<p><b>E</b>at: <i>I will eat three meals this week with others, including one person who is not yet a disciple of Jesus.</i></p>
+
+<p><b>L</b>isten to the Spirit: <i>I will spend time this week listening to the voice of the Holy Spirit.</i><br>
+ - Set aside a designated time. Eliminate distraction. Let God in. Follow God’s promptings.</p>
+	
+<p><b>L</b>earn Christ: <i>I will spend time this week learning Christ.</i><br>
+ - Study the Gospels Become a student of Jesus.</p>
+
+<p><b>S</b>ent: <i>I will spend some time this week journaling about the ways I partnered with God to alert people to the reign of Christ.<i><br>
+ - How did I create beauty? How did you work for justice? How did I bring reconciliation? </p>`
   },
 
   {

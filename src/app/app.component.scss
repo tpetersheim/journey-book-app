@@ -63,6 +63,61 @@ ion-header {
   }
 }
 
+ion-content {
+  .font-size-1 {
+    div, p, span {
+      font-size: 1.2rem !important;
+    }
+    h3 {
+      font-size: 2.0rem;
+    }
+    h4 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .font-size-2 {
+    div, p, span {
+      font-size: 1.3rem;
+    }
+    h3 {
+      font-size: 2.1rem;
+    }
+    h4 {
+      font-size: 1.9rem;
+    }
+  }
+
+  //Default
+  .font-size-3 {
+    div, p, span {
+      font-size: 1.4rem;
+    }
+    h3 {
+      font-size: 2.2rem;
+    }
+    h4 {
+      font-size: 2rem;
+    }
+  }
+
+  .font-size-4 *{
+      font-size: 1.5em;
+  }
+
+  .font-size-5 *{
+      font-size: 1.6em;
+  }
+
+  .font-size-6 *{
+      font-size: 1.7em;
+  }
+
+  .font-size-7 *{
+      font-size: 2em;
+  }
+}
+
 div.letter-icon {
     display: inline-block;
     border-radius: 50%;
@@ -71,27 +126,12 @@ div.letter-icon {
     height: 25px;
     padding: 1px;
     
-    // background: #fff;
-    //border: 2px solid #666;
     color: #fff;
     text-align: center;
     
-    // font: 32px Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
-
-// .menu-icon {
-//     width: 25px;
-//     height: 25px;
-//     padding: 1px;
-// }
-
-// .header-icon {
-//     width: 25px;
-//     height: 25px;
-//     padding: 1px;
-// }
 
 .letter-icon.up {
   background: $up-color;

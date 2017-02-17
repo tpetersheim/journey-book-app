@@ -6,6 +6,7 @@ import { AboutComponent } from './shared/about/about.component';
 import { AppComponent } from './app.component';
 import { ContactPage } from './contact/contact';
 import { CoreModule } from './core/core.module'
+import { ExternalLinksDirective } from './shared/external-links.directive';
 import { HeaderComponent } from './shared/header/header.component';
 import { HomePage } from './home/home';
 import { HttpModule } from '@angular/http';
@@ -18,13 +19,13 @@ import { OutComponent } from './out/out.component';
 import { OutPracticeComponent } from './out/out-practice/out-practice.component';
 import { OutVersesComponent } from './out/out-verses/out-verses.component';
 import { PracticeComponent } from './shared/practice/practice.component';
+import { SettingsComponent } from './settings/settings.component';
+import { Storage } from '@ionic/storage';
 import { UpAboutComponent } from './up/up-about/up-about.component';
 import { UpComponent } from './up/up.component';
 import { UpPracticeComponent } from './up/up-practice/up-practice.component';
 import { UpVersesComponent } from './up/up-verses/up-verses.component';
 import { VersesComponent } from './shared/verses/verses.component';
-
-// import { Storage } from '@ionic/storage';
 
 const cloudSettings: CloudSettings = {
   'core': {
@@ -40,6 +41,7 @@ const cloudSettings: CloudSettings = {
     HttpModule
   ],
   declarations: [
+    ExternalLinksDirective,
     AppComponent,
     HomePage,
     ContactPage,
@@ -58,7 +60,8 @@ const cloudSettings: CloudSettings = {
     HeaderComponent,
     VersesComponent,
     AboutComponent,
-    PracticeComponent
+    PracticeComponent,
+    SettingsComponent
   ],
   entryComponents: [
     AppComponent,
@@ -76,9 +79,10 @@ const cloudSettings: CloudSettings = {
     OutVersesComponent,
     OutPracticeComponent,
     OutAboutComponent,
+    SettingsComponent
   ],
   providers: [
-    /*Storage,*/
+    Storage,
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ],
   bootstrap: [IonicApp]

@@ -5,7 +5,7 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-content>
+  <ion-content [ngClass]="fontSizeClass">
     <ion-list>
       <div *ngFor="let p of pages">
         <button menuClose ion-item (click)="openPage(p)">

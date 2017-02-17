@@ -6,7 +6,10 @@
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "package:android": "ionic package build android --profile production --release",
+    "package:ios:dev": "ionic package build ios --profile dev",
+    "package:ios:prod": "ionic package build ios --profile production --release"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
@@ -39,6 +42,7 @@
     "cordova-plugin-statusbar",
     "cordova-plugin-device",
     "cordova-plugin-splashscreen",
+    "cordova-plugin-inappbrowser",
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [

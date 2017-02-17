@@ -179,7 +179,7 @@ export const practiceData: PracticeModel[] = [
       <li>Writing Scripture - Check out this monthly plan: <a href="http://www.swtblessings.com/" target="_blank">Sweet Blessings</a></li>
       <li>The Bible App devotionals</li>
       <li>Listen to an Audio version of the Bible</li>
-      <li><a href="https://thebibleproject.com/">The Bible Project</a> – great videos and other resources to compliment your Bible reading!</li>
+      <li><a href="https://thebibleproject.com/" target="_blank">The Bible Project</a> – great videos and other resources to compliment your Bible reading!</li>
       <li>Mark up your Bible – write notes, underline, mark moments when something spoke to you</li>
     </ul></p>
     <p>Above all, the Bible comes alive when we share it with each other.  We all have different stories and backgrounds and have connected to the Bible in different ways.  Share your perspective with a friend or a group of friends and you will experience the Bible in new and powerful ways!</p>`

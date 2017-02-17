@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="org.journeymennonite.replicatejesus" version="0.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.journeymennonite.replicatejesus" version="0.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Replicate Jesus</name>
   <description>Replicate Jesus Discipleship Book by Journey Mennonite Church</description>
   <author email="journeymennotech@journeymennonite.org" href="http://journeymennonite.org">Journey Mennonite Church</author>
@@ -93,6 +93,7 @@
   <plugin name="cordova-plugin-whitelist" spec="~1.2.2"/>
   <plugin name="cordova-plugin-splashscreen" spec="~3.2.2"/>
   <plugin name="cordova-plugin-statusbar" spec="~2.1.3"/>
+  <plugin name="cordova-plugin-inappbrowser" spec="~1.6.1"/>
   <plugin name="ionic-plugin-keyboard" spec="~2.2.1"/>
   <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
   <allow-navigation href="http://192.168.1.130:8100"/>

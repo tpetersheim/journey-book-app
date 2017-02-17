@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Settings</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <h4>Font Size</h4>
+  <p>
+    <ion-icon name="remove-circle" (click)="decrementFont()"></ion-icon>
+    <ion-icon name="add-circle" (click)="incrementFont()"></ion-icon>
+  </p>
+  <p>
+    Some text to see the font size change!
+  </p>
+</ion-content>

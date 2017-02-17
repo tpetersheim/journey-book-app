@@ -1,5 +1,5 @@
+import { App, Nav, Platform } from 'ionic-angular';
 import { Component, ViewChild } from '@angular/core';
-import { Nav, Platform } from 'ionic-angular';
 import { Splashscreen, StatusBar } from 'ionic-native';
 
 import { ContactPage } from './contact/contact';
@@ -19,7 +19,7 @@ export class AppComponent {
   pages: Array<{ title: string, component: any, iconCss?: string, ionIcon?: string }>;
   fontSizeClass: string;
 
-  constructor(private platform: Platform, private settings: SettingsService) {
+  constructor(private platform: Platform, private app: App, private settings: SettingsService) {
     this.initializeApp();
 
     this.pages = [
@@ -36,10 +36,18 @@ export class AppComponent {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
       StatusBar.styleDefault();
       Splashscreen.hide();
+
+      //Registration of push in Android and Windows Phone
+      this.platform.registerBackButtonAction(() => {
+        let nav = this.app.getActiveNav();
+        if (nav.canGoBack()) {
+          nav.pop();
+        } else {
+          this.platform.exitApp();
+        }
+      });
     });
   }
 

@@ -1,1 +1,0 @@
-export type DataKey = 'up' | 'in' | 'out';

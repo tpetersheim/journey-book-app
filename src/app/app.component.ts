@@ -6,9 +6,12 @@ import { ContactPage } from './contact/contact';
 import { HomePage } from './home/home';
 import { InComponent } from './in/in.component';
 import { OutComponent } from './out/out.component';
-import { SettingsComponent } from './settings/settings.component';
 import { SettingsService } from './core/settings.service';
 import { UpComponent } from './up/up.component';
+
+// import { SettingsComponent } from './settings/settings.component';
+
+
 
 @Component({
   templateUrl: 'app.component.html'

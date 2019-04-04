@@ -1,6 +1,5 @@
 {
-  "name": "UpInOut",
-  "app_id": "05a53d08",
-  "v2": true,
-  "typescript": true
+  "name": "meu-starter.tabs-sidemenu.ionic-v4",
+  "integrations": {},
+  "type": "angular"
 }

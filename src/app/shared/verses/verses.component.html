@@ -1,9 +1,0 @@
-<div>
-  <ion-list>
-    <ion-item *ngFor="let i of verseItems" (click)="toggleContent(i)">
-      <ion-icon color="primary" item-right [name]="i.icon"></ion-icon>
-      {{i.title}}
-      <div *ngIf="i.showContent" [innerHtml]='i.content'></div>
-    </ion-item>
-  </ion-list>
-</div>

@@ -1,14 +1,15 @@
-import { PracticeModel } from '../../../../../journey-book-app-old/src/app/core/data/models/practice.model';
+import { DataKey } from './models/data-key.type';
+import { PracticeModel } from './models/practice.model';
 
 export const practiceData: PracticeModel[] = [
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Prayer Cards',
     'what': '<p>Writing down your prayers so that you can look back and see the way God has been answering your prayers.</p>',
     'how': '<p>Write your prayers on 3X5 card. At end of a month, review the prayer cards and jot a note of response on the back side:  a thanksgiving, a praise, a confession, a resolution.  Do not be a slave to the process. If at the end of a month there are not 30 cards, God is good! Not all cards need a response; let the Spirit guide.</p>'
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Praying Scriptures',
     'what': '<p>Is it hard for you to focus on a scripture sometimes, or is it hard to put yourself in the story of God that you find yourself reading?  This is a common struggle, and praying scriptures can be a helpful way to work through it.</p>',
     'how': `<p>Read Psalm 63:1-5.  Now after reading these words, restate them to God as if you are writing them yourself and saying them to your heavenly Father who you are believing loves you.</p>
@@ -19,7 +20,7 @@ export const practiceData: PracticeModel[] = [
     <p>Continue using words of scripture to speak for you!</p>`
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Journaling Prayer',
     'what': `<p>It is simply taking your prayers to God and writing them out. God wants to hear from us.  He wants us to bring our joys, hardships, requests, and praise to Him, continually. The Bible tells us, <i>“Do not be anxious about anything, but in every situation by prayer and petition, with thanksgiving, present your requests to God.” Philippians 4:6</i></p>
     <p>How many times do you sit down to pray and your mind wanders?  Do you forget to pray? Do you not feel like your prayers are being heard?  I think that we all go through times in life like this.  Prayer journaling may be a way to help.</p>`,
@@ -34,7 +35,7 @@ export const practiceData: PracticeModel[] = [
     <p>Share your prayers with a small group. This allows others to support you and understand you deeply, and in turn you know them.</p>`
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Thankfulness – It’s a perspective thing!',
     'what': `<p><i>Give thanks to the Lord, for he is good; his love endures forever. Psalm 107:1</i><br>
     Life does not always go as we would like.  How do we remain grateful in the midst of trial and suffering –both large and small?<br>
@@ -53,13 +54,13 @@ export const practiceData: PracticeModel[] = [
     <p>“The real gift of gratitude is that the more grateful you become the more you realize God is present.” –Ann Voskamp</p>`
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Fasting',
     'what': '<p>Fasting is the purposeful setting aside of (usually) food in pursuit of God. Fasting is an act of sacrifice that allows us to declare that we want to know and hear from God more than we want food! Matthew 4 gives us the example of Jesus fasting for 40 days before he was tempted by Satan and began his ministry.</p>',
     'how': '<p>Pick a time period to not eat for. If you have never fasted before, a day is plenty long to start with. Try to pick a time that you can give some extra space to listening to God and prayer. It is wonderful to fast with a small group of people, but the Bible tells us not to go around telling everyone about our fast so that we look extra good.  As you fast, write down the things you are experiencing and hearing from God.</p>'
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Discomfort in worship',
     'what': `<p>Challenging ourselves to worship uncomfortably is a willful act of humility & submission (James 4:6-10). It reminds us of Jesus' suffering and our call to follow him into that (I Peter 2:21-23) and allows us to practice choosing God's glory over our own comfort (Ex 20:3-6; Mt 4:10).</p>
     <p>It involves sacrifice (Hebrews 13:15; I Peter 2:5; Romans 12:1), not giving thought to our reputation or what we look like to others (II Samuel 6:12-2). The uncomfortable feeling arises when something we hold very dear (what people think of us, social standing, anonymity, etc) is perceived to be threatened. The question is:  Will we choose to honor God or bow down to ourselves?</p>`,
@@ -73,7 +74,7 @@ export const practiceData: PracticeModel[] = [
     </ul></p>`
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Listen to Worship Music',
     'what': `<p><i>Praise our God, all peoples, let the sound of his praise be heard. - Psalm 66:8</i><br>
     God gave us creative minds to glorify him and one of those ways that we can worship Him is through music.  We connect to God through music in a different way, drawing near to Him with emotion and reflection.  </p>`,
@@ -91,7 +92,7 @@ export const practiceData: PracticeModel[] = [
     <p>“Music expresses that which cannot be said and on which it is impossible to be silent.” –Victor Hugo</p>`
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Nature Prayer Walk',
     'what': `<p>God is waiting to speak to us through his creation when we take the time to put ourselves out in the middle of it. As Psalm 19:1 says, <i>“The heavens declare the glory of God; the skies proclaim the work of his hands.”</i></p>`,
     'how': `<p>Begin with observation.<br>
@@ -106,7 +107,7 @@ export const practiceData: PracticeModel[] = [
     <i>“Lord, you have made so many things! How wise you were when you made all of them! The earth is full of your creatures.” Ps 104:24</i></p>`
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'SOZO for Abundant Living',
     'what': `<p>Do you ever have thoughts like these?  "I know I'm saved, so why is life such a struggle?  Why can't I control my emotions, thoughts or words?  Why is it so hard to let go of offense?  I confess my sin but I still feel shame.  Why don't I feel close to God?  This doesn't feel like abundant life."</p>
     <p>There are many Greek words in the New Testament that mean save, heal or deliver but Sozo includes all three.  Sozo means spiritual, physical and emotional wellness; wholeness in body, soul and spirit.</p>
@@ -116,7 +117,7 @@ export const practiceData: PracticeModel[] = [
     <p>JMC has a Sozo Ministry Team that would love to walk with you. For more information or to schedule a Sozo call the church office at 620-663-4244.</p>`
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Two-Way Journaling',
     'what': `<p>Cultivating a Love Relationship with Jesus</p>
     <p><i>"My sheep hear my voice..."  John 10:27</i></p>
@@ -133,7 +134,7 @@ export const practiceData: PracticeModel[] = [
     <p><i>4 Keys to Hearing God's Voice</i>, Dr. Mark Virkler.  J@SH has DVDs.</p>`
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Holy Spirit, Your Personal Trainer',
     'what': `<p>Often times people who follow Jesus have a very fuzzy understanding of the Holy Spirit. It is vital to the life of any Christian to understand, know and be able to hear the Holy Spirit.</p>`,
     'how': `<p>Use the following questions and Scriptures to learn about the Holy Spirit.<br>
@@ -158,7 +159,7 @@ export const practiceData: PracticeModel[] = [
     Acts 1:8.  He will empower you and you will be a witness.</p>`
   },
   {
-    'key': 'up',
+    'key': DataKey.up,
     'title': 'Solitutde',
     'what': `<p>Jesus showed us a pattern of taking space to be alone with God the Father (Mark 1:12-13, Mark 1:35, Luke 5:16, Luke 6:12-13, Matthew 14:13, John 6:15). Solitude and retreat allow us space to untangle our lives and minds, be still, and hear from God.</p>`,
     'how': `<p>Find at least an hour (more time is great!) to be quiet. Turn off or get away from all electronics and notifications (Alarms work with a phone on airplane mode!). Bring your Bible, something to write in and be still. As thoughts come to your mind that seem distracting, write them down and continue to sit in stillness. We don’t want to empty ourselves of everything, but rather to fill ourselves with Jesus. So as you find a place of stillness, begin to pray or read a passage of Scripture all the while asking God what he is speaking to you in your solitude.</p>
@@ -168,7 +169,7 @@ export const practiceData: PracticeModel[] = [
 
 
   {
-    'key': 'in',
+    'key': DataKey.in,
     'title': 'Experiencing the Bible in New Ways',
     'what': `<p><i>For everything that was written in the past was written to teach us, so that through the endurance taught in the endurance taught in the Scriptures and the encouragement they provide we might have hope.  Romans 15:4</i></p>
     <p>We all know that we should read the Bible but sometimes it is hard to find ways to bring it to life.  Interacting with our Bible’s in different ways can help us find meaning and keep it fresh and applicable to our life.</p>`,
@@ -185,7 +186,7 @@ export const practiceData: PracticeModel[] = [
     <p>Above all, the Bible comes alive when we share it with each other.  We all have different stories and backgrounds and have connected to the Bible in different ways.  Share your perspective with a friend or a group of friends and you will experience the Bible in new and powerful ways!</p>`
   },
   {
-    'key': 'in',
+    'key': DataKey.in,
     'title': 'APEST',
     'what': `<p>Discovering your spiritual gifts is an important step in more fully understanding how you can contribute to the church and community.<br>
     A – Apostolic<br>
@@ -196,7 +197,7 @@ export const practiceData: PracticeModel[] = [
     'how': `<p><a href="http://fivefoldsurvey.com/" target="_blank">Take the test</a> to learn more about how God wired you! Learn more <a href="http://theforgottenways.org/apest/" target="_blank">here</a>.</p>`
   },
   {
-    'key': 'in',
+    'key': DataKey.in,
     'title': 'How to Confess Sin and Offer Grace',
     'what': `<p><i>If we confess our sins, He is faithful and righteous to forgive us our sins and to cleanse us from all unrighteousness. 1 John 1:9</i><p>
     <p>When we have sin in our lives, we often want to avoid God, fearing He will be angry.  But God is not human. While humans often want revenge, God’s desire is to restore our relationship with Him and for us be free of the burden. He already knows our action and is longing for us to agree with Him about sin and help us resist it.</p>
@@ -206,7 +207,7 @@ export const practiceData: PracticeModel[] = [
     <p>Offering grace to others: Ask God to help you see the person through His eyes and for the desire to forgive. Ask Him to give you love, perception, and compassion that will help you respond in a way that imitates Jesus.</p>`
   },
   {
-    'key': 'in',
+    'key': DataKey.in,
     'title': 'S.T.O.P. Method for Bible Study',
     'what': `<p>A method for helping you understand what you are reading in the Bible.</p>`,
     'how': `<p>What does it <b>SAY</b>?<br>
@@ -219,7 +220,7 @@ export const practiceData: PracticeModel[] = [
     Think about what the Bible passage means for you personally. Knowing what you learned in the other steps, what can you learn and act on in your own life?</p>`
   },
   {
-    'key': 'in',
+    'key': DataKey.in,
     'title': 'Study through Prayers and Creeds',
     'what': `<p>Using historical church literature, such as prayers and creeds, in order to connect to the broader Christian Church and God.  It is something done with a group of people as a form of corporate worship. Often prayers and creeds are recited as a group.  There can also be call and response readings. Lectionaries can be utilized for church services as well.  A lectionary is a book of scripture readings by week for a service throughout the year.</p>
     <p>Incorporating prayers and creeds into worship encourages Christians to join together in voice and unity around central parts of faith. Participants are able to connect to the present Body of Christ, and the rich history of the Christian tradition.</p>`,
@@ -235,13 +236,13 @@ export const practiceData: PracticeModel[] = [
     </ul></p>`
   },
   {
-    'key': 'in',
+    'key': DataKey.in,
     'title': 'Communion',
     'what': `<p>Communion is an act of worship that helps us remember the work of Christ and look forward to his return to make all things new.</p>`,
     'how': `<p>Prepare both the cup and the bread for a time of communion. You can get thoughts on different ways of taking communion <a href="http://www.rustyparts.com/wp/2006/01/29/how-to-take-communion/" target="_blank">here</a>.  You don’t need to have any special ability or knowledge to lead a time of communion. You can simply read 1 Corinthians 11:23-26 and then pass around the elements. You can add prayers, devotional thoughts or music as you feel comfortable.</p>`
   },
   {
-    'key': 'in',
+    'key': DataKey.in,
     'title': 'BELLS – 5 Missional Habits ',
     'what': `<p>From Michael Frost’s <i><a href="http://www.rupertsland.ca/wp-content/uploads/The-5-Habits-of-Highly-Missional-People-11.pdf" target="_blank">Five Habits of Highly Missional People</a></i></p>
     <p>There was a time when church bells could be heard ringing out over the community alerting people to God’s activity. While this isn’t as common as it once was, these simple habits can help transform our lives into everyday reminders that God’s Kingdom is coming here on earth as it is in heaven.</p>`,
@@ -261,7 +262,7 @@ export const practiceData: PracticeModel[] = [
   },
 
   {
-    'key': 'in',
+    'key': DataKey.in,
     'title': 'Observations and Questions',
     'what': `<p>Making observations and asking questions about the Bible as you read it to help you gain understanding and insight.</p>`,
     'how': `<p>As you read through a passage of Scripture, write down things that you notice. It could be other parts of the Bible that relate to what you are reading, things about God, repetition of words, or anything else. Reread the passage and write down anything you have questions about. It could be about a person, a word, geography or anything else. If you are reading the same passage as someone else, share your observations with them and work together to answer your questions.</p>`
@@ -272,13 +273,13 @@ export const practiceData: PracticeModel[] = [
 
 
   {
-    'key': 'out',
+    'key': DataKey.out,
     'title': 'Who is sent to me?',
     'what': `<p>God sends us each day on mission where we live, work, and play.  He also sends people to us; there are no coincidental connections.</p>`,
     'how': `<p>Pray each morning that God will bring people across your path for whom you can be the incarnated Christ. Pray each morning that God will give you sensitivity to the Spirit as you encounter people. Reflect briefly at the end of the day; whom did God send to you? Did you meet them in the spirit of Jesus? How might you do better tomorrow?</p>`
   },
   {
-    'key': 'out',
+    'key': DataKey.out,
     'title': 'Talking about Jesus and the Gospel',
     'what': `<p>1 Peter 3:15 tells us to, <i>“Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have.”</i>  As we learn to follow Jesus, we need to think about how to tell others about Jesus.</p>
 <p>Gospel means good news and how we talk about the good news matters! Bruxy Cavey talks about the gospel in 1, 3, and 30 words:<br>
@@ -288,7 +289,7 @@ export const practiceData: PracticeModel[] = [
     'how': `<p>Practice talking about what the good news of Jesus means in your life with a Christian friend or your missional community. What does it mean for you that Jesus shows us God’s love? That he saves us from sin? That he shares his life with us? That he has shut down religion? What does it mean that Jesus is Lord?</p>`
   },
   {
-    'key': 'out',
+    'key': DataKey.out,
     'title': 'Throwing a Party',
     'what': `<p>“The Gospel will not be heard until our front doors open, our tables are set, and we practice the art of hospitality, celebration & party!” – Hugh Halter (Happy Hour)</p>`,
     'how': `<p><b>Planning</b>
@@ -324,7 +325,7 @@ export const practiceData: PracticeModel[] = [
     <p>-Excerpts taken from <a href="http://hughhalter.com/books.htm" target="_blank">“Happy Hour” by Hugh Halter</a></p>`
   },
   {
-    'key': 'out',
+    'key': DataKey.out,
     'title': 'Know Your Neighbors',
     'what': `<p>Jesus tells us to “love your neighbor as yourself” Mark 12:31. You can’t love your neighbors if you don’t know who they are!</p>`,
     'how': `<p>Download and print a <a href="http://www.artofneighboring.com/wp-content/uploads/2016/01/blockmap-1.pdf" target="_blank">Block Map</a>. Use it to start knowing and remembering who lives around you.
@@ -332,7 +333,7 @@ export const practiceData: PracticeModel[] = [
     <p>Once you know your neighbors, start praying for them.</p>`
   },
   {
-    'key': 'out',
+    'key': DataKey.out,
     'title': 'How to see and meet needs where you live, work and play',
     'what': `<p>Being a missionary!  We are called to make disciples of all nations (Matthew 28:19). A big part of making disciples, and our own faith journey, is the process of becoming more aware of the people and needs around us.  It takes intentionality of learning about ourselves, the culture that we are in, and creating relationships.</p>`,
     'how': `<p>Listen - Spend time in prayer.  Ask for the Holy Spirit to open your eyes and ears throughout the day as you interact with friends, coworkers, and neighbors.</p>
@@ -340,7 +341,7 @@ export const practiceData: PracticeModel[] = [
     <p>Act - Invite neighbors over for dinner, or take them a meal when they’re sick.  Join the Care Portal to help with needs in the community.  Participate in community events and make connections with those around you.</p>`
   },
   {
-    'key': 'out',
+    'key': DataKey.out,
     'title': 'How to Volunteer',
     'what': `<p>IN HUMILITY<br>
     <i>God resists the proud but gives grace to the humble.  Pr 3:34, Jms 4:6</i><br>

@@ -1,15 +1,19 @@
 import { Directive, ElementRef, HostListener } from '@angular/core';
-
-import { InAppBrowser } from 'ionic-native';
-import { Platform } from 'ionic-angular';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+import { Platform } from '@ionic/angular';
 
 @Directive({
+  // tslint:disable-next-line:directive-selector
   selector: 'a[target=_blank]'
 })
 export class ExternalLinksDirective {
   private el: Element;
 
-  constructor(private platform: Platform, private elementRef: ElementRef) {
+  constructor(
+    private platform: Platform,
+    private elementRef: ElementRef,
+    private iab: InAppBrowser
+    ) {
     this.el = elementRef.nativeElement;
   }
 
@@ -17,7 +21,7 @@ export class ExternalLinksDirective {
   onClick(el: Element) {
     this.platform.ready().then(() => {
       const url = el.getAttribute('href');
-      new InAppBrowser(url, '_blank');
+      this.iab.create(url, '_blank');
     });
     return false;
   }

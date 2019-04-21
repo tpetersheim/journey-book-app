@@ -1,5 +1,20 @@
 <ion-tabs>
-  <ion-tab [root]="tab1Root" tabTitle="About" tabIcon="star-outline"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle="Scriptures" tabIcon="book"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Practice" tabIcon="ios-list"></ion-tab>
+  <ion-tab-bar slot="bottom">
+
+    <ion-tab-button tab="about">
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-label>About</ion-label>
+    </ion-tab-button>
+    
+    <ion-tab-button tab="verses">
+      <ion-icon name="book"></ion-icon>
+      <ion-label>Scriptures</ion-label>
+    </ion-tab-button>
+    
+    <ion-tab-button tab="practice">
+      <ion-icon name="ios-list"></ion-icon>
+      <ion-label>Practice</ion-label>
+    </ion-tab-button>
+
+  </ion-tab-bar>
 </ion-tabs>

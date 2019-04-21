@@ -3,13 +3,14 @@ import { Injectable } from '@angular/core';
 import { Observable, of, throwError } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 
-import { AboutModel } from '../../../../../journey-book-app-old/src/app/core/data/models/about.model';
-import { DataKey } from '../../../../../journey-book-app-old/src/app/core/data/models/data-key.type';
-import { PracticeModel } from '../../../../../journey-book-app-old/src/app/core/data/models/practice.model';
-import { VerseModel } from '../../../../../journey-book-app-old/src/app/core/data/models/verse.model';
+
 import { aboutData } from './about.data';
 import { practiceData } from './practice.data';
 import { verseData } from './verse.data';
+import { DataKey } from './models/data-key.type';
+import { VerseModel } from './models/verse.model';
+import { AboutModel } from './models/about.model';
+import { PracticeModel } from './models/practice.model';
 
 @Injectable()
 export class DataService {

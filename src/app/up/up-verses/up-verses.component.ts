@@ -7,7 +7,7 @@ import { DataKey } from './../../services/data/models/data-key.type';
 })
 export class UpVersesComponent {
 
-  dataKey: DataKey = 'up';
+  dataKey: DataKey = DataKey.up;
 
   constructor() {
   }

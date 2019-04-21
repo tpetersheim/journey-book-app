@@ -1,1 +1,5 @@
-export type DataKey = 'up' | 'in' | 'out';
+export enum DataKey {
+    up = 'up',
+    in = 'in',
+    out = 'out'
+}

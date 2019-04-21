@@ -1,9 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
-import { DataKey } from './../../core/data/models/data-key.type';
-import { DataService } from './../../core/data/data.service';
-import { VerseModel } from './../../core/data/models/verse.model';
+import { DataKey } from '../../services/data/models/data-key.type';
+import { DataService } from '../../services/data/data.service';
+import { VerseModel } from '../../services/data/models/verse.model';
+
 
 @Component({
   selector: 'verses-content',
@@ -12,8 +13,8 @@ import { VerseModel } from './../../core/data/models/verse.model';
 export class VersesComponent implements OnInit {
   @Input() dataKey: DataKey;
   verseItems: Array<{ title: string, content: SafeHtml, icon: string, showContent: boolean }> = [];
-  private iconClosed: string = 'arrow-dropleft';
-  private iconOpen: string = 'arrow-dropdown';
+  private iconClosed = 'arrow-dropleft';
+  private iconOpen = 'arrow-dropdown';
 
   constructor(private sanitizer: DomSanitizer, private dataService: DataService) {}
 
@@ -24,7 +25,7 @@ export class VersesComponent implements OnInit {
   private loadVerses() {
     this.dataService.getVerses(this.dataKey).subscribe((verses: VerseModel[]) => {
       this.verseItems = [];
-      for (let verse of verses) {
+      for (const verse of verses) {
         this.addVerse(verse.title, verse.content);
       }
     }, (err) => {

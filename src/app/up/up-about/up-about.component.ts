@@ -6,7 +6,7 @@ import { DataKey } from './../../services/data/models/data-key.type';
     templateUrl: 'up-about.component.html'
 })
 export class UpAboutComponent {
-    dataKey: DataKey = 'up';
+    dataKey: DataKey = DataKey.up;
 
     constructor() {}
 }

@@ -6,7 +6,7 @@ import { DataKey } from './../../services/data/models/data-key.type';
     templateUrl: 'out-about.component.html'
 })
 export class OutAboutComponent {
-    dataKey: DataKey = 'out';
+    dataKey: DataKey = DataKey.out;
 
     constructor() {}
 }

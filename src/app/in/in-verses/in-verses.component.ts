@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { DataKey } from './../../core/data/models/data-key.type';
-import { NavController } from 'ionic-angular';
+import { DataKey } from '../../services/data/models/data-key.type';
 
 @Component({
   selector: 'page-in-verses',
@@ -8,8 +7,8 @@ import { NavController } from 'ionic-angular';
 })
 export class InVersesComponent {
 
-  dataKey: DataKey = 'in';
+  dataKey: DataKey = DataKey.in;
 
-  constructor(private navCtrl: NavController) {
+  constructor() {
   }
 }

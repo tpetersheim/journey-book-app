@@ -1,9 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
-import { AboutModel } from './../../core/data/models/about.model';
-import { DataKey } from './../../core/data/models/data-key.type';
-import { DataService } from './../../core/data/data.service';
+import { AboutModel } from '../../../services/data/models/about.model';
+import { DataKey } from '../../../services/data/models/data-key.type';
+import { DataService } from '../../../services/data/data.service';
 
 @Component({
   selector: 'about-content',

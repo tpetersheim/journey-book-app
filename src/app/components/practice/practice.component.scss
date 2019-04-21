@@ -1,0 +1,48 @@
+practice-content {
+
+  #top {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .practice-container {
+    margin-top: 30px
+  }
+
+  .practice-item {
+    margin-bottom: 40px;
+  }
+
+  .title-container {
+    padding-top: 20px;
+  }
+
+  .title {
+    display: inline-block;
+    max-width: 85%;
+  }
+
+  .what-title, .how-title {
+    font-weight: bold;
+  }
+
+  .what-container {
+    padding-bottom: 10px;
+  }
+
+  .top-link {
+    float: right;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+
+  .practice-item-link-li {
+    margin-bottom: 5px;
+    list-style-image: none;
+  }
+
+  .practice-item-link {
+    font-size: 1.3em;
+    text-decoration: none;
+  }
+}

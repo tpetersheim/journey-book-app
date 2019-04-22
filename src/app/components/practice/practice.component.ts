@@ -1,22 +1,30 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { Router } from '@angular/router';
 
-import { DataKey } from './../../services/data/models/data-key.type';
 import { DataService } from './../../services/data/data.service';
+import { DataKey } from './../../services/data/models/data-key.type';
 import { PracticeModel } from './../../services/data/models/practice.model';
 
 @Component({
   selector: 'practice-content',
-  templateUrl: 'practice.component.html'
+  templateUrl: 'practice.component.html',
+  styleUrls: ['practice.component.scss']
 })
 export class PracticeComponent implements OnInit {
   @Input() dataKey: DataKey;
   practiceItems: Array<{ title: string, id: string, what: SafeHtml, how: SafeHtml }> = [];
+  currentUrl: string;
 
-  constructor(private sanitizer: DomSanitizer, private dataService: DataService) {}
+  constructor(
+    private sanitizer: DomSanitizer,
+    private dataService: DataService,
+    private router: Router
+  ) {}
 
   ngOnInit() {
     this.loadPractices();
+    this.currentUrl = this.router.url;
   }
 
   private loadPractices() {

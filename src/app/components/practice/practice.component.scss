@@ -1,4 +1,4 @@
-practice-content {
+:host {
 
   #top {
     list-style-type: none;
@@ -20,6 +20,7 @@ practice-content {
   .title {
     display: inline-block;
     max-width: 85%;
+    margin-top: 0px;
   }
 
   .what-title, .how-title {

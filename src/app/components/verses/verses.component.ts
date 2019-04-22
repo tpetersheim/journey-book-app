@@ -1,14 +1,15 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
-import { DataKey } from '../../services/data/models/data-key.type';
 import { DataService } from '../../services/data/data.service';
+import { DataKey } from '../../services/data/models/data-key.type';
 import { VerseModel } from '../../services/data/models/verse.model';
 
 
 @Component({
   selector: 'verses-content',
-  templateUrl: 'verses.component.html'
+  templateUrl: 'verses.component.html',
+  styleUrls: ['verses.component.scss']
 })
 export class VersesComponent implements OnInit {
   @Input() dataKey: DataKey;

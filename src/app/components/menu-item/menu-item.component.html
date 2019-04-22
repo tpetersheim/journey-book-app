@@ -1,5 +1,5 @@
 <ion-item [routerLink]="link.url" [class.active-item]="link.active" routerDirection="root">
-    <div *ngIf="link.iconCss" [ngClass]="link.iconCss"></div>
+    <div *ngIf="link.iconCss" [ngClass]="link.iconCss" slot="start"></div>
     <ion-icon *ngIf="link.ionIcon" class="menu-item" [name]="link.ionIcon" slot="start"></ion-icon>
   <ion-label>{{link.title}}</ion-label>
 </ion-item>

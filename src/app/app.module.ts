@@ -8,6 +8,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { AppComponent } from './app.component';
 import { MenuItemComponent } from './components/menu-item/menu-item.component';
 import { PracticeComponent } from './components/practice/practice.component';
@@ -73,6 +74,7 @@ import { UpComponent } from './up/up.component';
         DataService,
         StatusBar,
         SplashScreen,
+        InAppBrowser,
         { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
     ],
     bootstrap: [AppComponent]

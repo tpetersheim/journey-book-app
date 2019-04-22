@@ -5,4 +5,17 @@ import { Component } from '@angular/core';
   templateUrl: 'contact.page.html',
   styleUrls: ['contact.page.scss']
 })
-export class ContactPage {}
+export class ContactPage {
+  private clickCount = 0;
+
+
+  easterEgg() {
+    this.clickCount++;
+
+    if (this.clickCount >= 5) {
+      alert(`Don't Stop Believin'!`);
+      this.clickCount = 0;
+    }
+
+  }
+}

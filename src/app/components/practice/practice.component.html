@@ -2,7 +2,7 @@
 
   <ul id="top">
     <li class="practice-item-link-li" *ngFor="let i of practiceItems">
-      <a class="practice-item-link" [href]="'#' + i.id" [innerText]="i.title"></a>
+      <a class="practice-item-link" [href]="currentUrl + '#' + i.id" [innerText]="i.title"></a>
     </li>
   </ul>
 
@@ -12,7 +12,7 @@
 
         <div class="title-container">
           <h3 class="title" [innerText]="i.title"></h3>
-          <a href="#top" class="top-link">Top</a>
+          <a [href]="currentUrl + '#top'" class="top-link">Top</a>
         </div>
 
         <div class="what-container clearfix">

@@ -10,3 +10,149 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+$up-color: #005160;
+$in-color: #88c1cc;
+$out-color: #ffd103;
+$reg-font-size: 1.6rem;
+
+ion-app.md, ion-app.ios, .item-ios p, .item-md p  {
+  font-size: $reg-font-size;
+}
+
+ion-menu {
+
+  ion-icon {
+    font-size: 30px;
+    position: relative;
+  }
+
+  ion-label span {
+    position: relative;
+    top: -1px;
+    left: 6px;
+  }
+}
+
+ion-header {
+  ion-icon {
+    font-size: 30px;
+  }
+
+  .scroll-content {
+    overflow-y: hide;
+  }
+
+  &.up {
+
+    .toolbar-title, .bar-button {
+      color: white;
+    }
+
+    .toolbar-background {
+      background: $up-color;
+    }
+  }
+
+  &.in .toolbar-background {
+    background: $in-color;
+  }
+
+  &.out .toolbar-background {
+    background: $out-color;
+  }
+}
+
+ion-content {
+  .font-size-1 {
+    div, p, span {
+      font-size: 1.2rem !important;
+    }
+    h3 {
+      font-size: 2.0rem;
+    }
+    h4 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .font-size-2 {
+    div, p, span {
+      font-size: 1.3rem;
+    }
+    h3 {
+      font-size: 2.1rem;
+    }
+    h4 {
+      font-size: 1.9rem;
+    }
+  }
+
+  //Default
+  .font-size-3 {
+    div, p, span {
+      font-size: 1.4rem;
+    }
+    h3 {
+      font-size: 2.2rem;
+    }
+    h4 {
+      font-size: 2rem;
+    }
+  }
+
+  .font-size-4 *{
+      font-size: 1.5em;
+  }
+
+  .font-size-5 *{
+      font-size: 1.6em;
+  }
+
+  .font-size-6 *{
+      font-size: 1.7em;
+  }
+
+  .font-size-7 *{
+      font-size: 2em;
+  }
+}
+
+div.letter-icon {
+    display: inline-block;
+    border-radius: 50%;
+
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    margin-inline-end: 38px;
+    
+    color: #fff;
+    text-align: center;
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.letter-icon.up {
+  background: $up-color;
+}
+
+.letter-icon.up:before {
+  content: 'U'
+}
+
+.letter-icon.in {
+  background: $in-color;
+}
+
+.letter-icon.in:before {
+  content: 'I'
+}
+
+.letter-icon.out {
+  background: $out-color;
+}
+
+.letter-icon.out:before {
+  content: 'O'
+}

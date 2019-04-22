@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Platform } from '@ionic/angular';
+import { NavigationEnd, Router, RouterEvent } from '@angular/router';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
-import { Router, RouterEvent, NavigationEnd } from '@angular/router';
+import { Platform } from '@ionic/angular';
 
 @Component({
     selector: 'app-root',
@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
         { title: 'In', url: '/in', iconCss: 'letter-icon in' },
         { title: 'Out', url: '/out', iconCss: 'letter-icon out' },
         // { title: 'Login', url: '/login', icon: 'log-in' },
-        { title: 'Contact', url: '/contact', icon: 'person' }
+        { title: 'Contact', url: '/contact', ionIcon: 'person' }
         // { title: 'About', url: '/tabs/about', icon: 'information-circle' }
     ];
 

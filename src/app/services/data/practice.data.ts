@@ -4,7 +4,7 @@ import { PracticeModel } from './models/practice.model';
 export const practiceData: PracticeModel[] = [
   {
     'key': DataKey.up,
-    'title': 'Prayer Cards',
+    'title': 'Prayer Cards - Don Lind',
     'what': '<p>Writing down your prayers so that you can look back and see the way God has been answering your prayers.</p>',
     'how': '<p>Write your prayers on 3X5 card. At end of a month, review the prayer cards and jot a note of response on the back side:  a thanksgiving, a praise, a confession, a resolution.  Do not be a slave to the process. If at the end of a month there are not 30 cards, God is good! Not all cards need a response; let the Spirit guide.</p>'
   },
@@ -57,7 +57,14 @@ export const practiceData: PracticeModel[] = [
     'key': DataKey.up,
     'title': 'Fasting',
     'what': '<p>Fasting is the purposeful setting aside of (usually) food in pursuit of God. Fasting is an act of sacrifice that allows us to declare that we want to know and hear from God more than we want food! Matthew 4 gives us the example of Jesus fasting for 40 days before he was tempted by Satan and began his ministry.</p>',
-    'how': '<p>Pick a time period to not eat for. If you have never fasted before, a day is plenty long to start with. Try to pick a time that you can give some extra space to listening to God and prayer. It is wonderful to fast with a small group of people, but the Bible tells us not to go around telling everyone about our fast so that we look extra good.  As you fast, write down the things you are experiencing and hearing from God.</p>'
+    'how': `<p>Pick a time period to not eat for. If you have never fasted before, a day is plenty long to start with. Try to pick a time that you can give some extra space to listening to God and prayer. It is wonderful to fast with a small group of people, but the Bible tells us not to go around telling everyone about our fast so that we look extra good.  As you fast, write down the things you are experiencing and hearing from God.</p>
+    <p>Some other ways you could fast:
+      <ul>
+        <li>Give up something that you rely on for comfort- Coffee, Chocolate, cheese, etc. for a week and focus your prayer life when you think about it.</li>
+        <li>Fast from Technology or Social media for a period of time and use that time for spiritual growth</li>
+        <li>Turn off the radio or music in your car on your commute one way and use to think about God.</p></li>
+      </ul>
+    </p>`
   },
   {
     'key': DataKey.up,
@@ -65,12 +72,12 @@ export const practiceData: PracticeModel[] = [
     'what': `<p>Challenging ourselves to worship uncomfortably is a willful act of humility & submission (James 4:6-10). It reminds us of Jesus' suffering and our call to follow him into that (I Peter 2:21-23) and allows us to practice choosing God's glory over our own comfort (Ex 20:3-6; Mt 4:10).</p>
     <p>It involves sacrifice (Hebrews 13:15; I Peter 2:5; Romans 12:1), not giving thought to our reputation or what we look like to others (II Samuel 6:12-2). The uncomfortable feeling arises when something we hold very dear (what people think of us, social standing, anonymity, etc) is perceived to be threatened. The question is:  Will we choose to honor God or bow down to ourselves?</p>`,
     'how': `<p><ul>
-    <li>On our knees/faces (psalm 95:6; rev 19:4)</li>
-    <li>Dancing/shouting/singing/music (II Samuel 6:14; psalm 149 &150)</li>
-    <li>Sit in silence (when was the last time you sat with nothing going on around you?)</li>
-    <li>Listen to hymns (the words of our brothers and sisters who came before us are very powerful)</li>
-    <li>Use hands while praying/singing (let the words dictate your movements.)</li>
-    <li>Attend other churches (worship with different believers in different ways. Each church has their own strengths and weaknesses and we would be wise to learn from them so that we can see our own. No matter what church we enter we should come humbly with a desire to glean truth and worship our common Maker.)</li>
+      <li>On our knees/faces (psalm 95:6; rev 19:4)</li>
+      <li>Dancing/shouting/singing/music (II Samuel 6:14; psalm 149 &150)</li>
+      <li>Sit in silence (when was the last time you sat with nothing going on around you?)</li>
+      <li>Listen to hymns (the words of our brothers and sisters who came before us are very powerful)</li>
+      <li>Use hands while praying/singing (let the words dictate your movements.)</li>
+      <li>Attend other churches (worship with different believers in different ways. Each church has their own strengths and weaknesses and we would be wise to learn from them so that we can see our own. No matter what church we enter we should come humbly with a desire to glean truth and worship our common Maker.)</li>
     </ul></p>`
   },
   {
@@ -165,26 +172,74 @@ export const practiceData: PracticeModel[] = [
     'how': `<p>Find at least an hour (more time is great!) to be quiet. Turn off or get away from all electronics and notifications (Alarms work with a phone on airplane mode!). Bring your Bible, something to write in and be still. As thoughts come to your mind that seem distracting, write them down and continue to sit in stillness. We don’t want to empty ourselves of everything, but rather to fill ourselves with Jesus. So as you find a place of stillness, begin to pray or read a passage of Scripture all the while asking God what he is speaking to you in your solitude.</p>
     <p>Be patient and remember that stillness and listening to God takes practice.</p>`
   },
-
-
-
   {
-    'key': DataKey.in,
+    'key': DataKey.up,
     'title': 'Experiencing the Bible in New Ways',
     'what': `<p><i>For everything that was written in the past was written to teach us, so that through the endurance taught in the endurance taught in the Scriptures and the encouragement they provide we might have hope.  Romans 15:4</i></p>
     <p>We all know that we should read the Bible but sometimes it is hard to find ways to bring it to life.  Interacting with our Bible’s in different ways can help us find meaning and keep it fresh and applicable to our life.</p>`,
     'how': `<p>Here are some ways that we can experience the Bible differently:
-    <ul>
-      <li>Character/Topical Study with Small Group</li>
-      <li><a href="http://www.lifeway.com/Article/how-to-start-bible-journaling-in-six-easy-steps" target="_blank">Bible Journaling</a></li>
-      <li>Writing Scripture - Check out this monthly plan: <a href="http://www.swtblessings.com/" target="_blank">Sweet Blessings</a></li>
-      <li>The Bible App devotionals</li>
-      <li>Listen to an Audio version of the Bible</li>
-      <li><a href="https://thebibleproject.com/" target="_blank">The Bible Project</a> – great videos and other resources to compliment your Bible reading!</li>
-      <li>Mark up your Bible – write notes, underline, mark moments when something spoke to you</li>
-    </ul></p>
+      <ul>
+        <li>Character/Topical Study with Small Group</li>
+        <li>Journaling</li>
+        <li>Writing Scripture- Check out this monthly plan: Sweet Blessings</li>
+        <li>The Bible App devotionals</li>
+        <li>Listen to an Audio version of the Bible</li>
+        <li><a href="https://thebibleproject.com/" target="_blank">The Bible Project</a> – great videos and other resources to compliment your Bible reading!</li>
+        <li>Mark up your Bible – write notes, underline, mark moments when something spoke to you</li>
+      </ul>
+    </p>
     <p>Above all, the Bible comes alive when we share it with each other.  We all have different stories and backgrounds and have connected to the Bible in different ways.  Share your perspective with a friend or a group of friends and you will experience the Bible in new and powerful ways!</p>`
   },
+  {
+    'key': DataKey.up,
+    'title': 'S.T.O.P. Method for Bible Study',
+    'what': `<p>A method for helping you understand what you are reading in the Bible.</p>`,
+    'how': `<p>What does it <b>SAY</b>?<br>
+    Think about what the words actually say and look up the meanings of any words you don’t know.</p>
+    <p>What were the <b>TIMES</b>?<br>
+    Consider what the times were like when the passage was written. What was the time period in history? What events were happening? What was important to the people at that time? It’s a great idea to look up this info in a reliable source.</p>
+    <p>What did it mean <b>ORIGINALLY</b>?<br>
+    Consider what the Bible passage meant when it was written. Think about who wrote it, who it was written for, and what it would have meant to people then.</p>
+    <p>What does it mean for me <b>PERSONALLY</b>?<br>
+    Think about what the Bible passage means for you personally. Knowing what you learned in the other steps, what can you learn and act on in your own life?</p>`
+  },
+  {
+    'key': DataKey.up,
+    'title': 'Observations and Questions',
+    'what': `<p>Making observations and asking questions about the Bible as you read it to help you gain understanding and insight.</p>`,
+    'how': `<p>As you read through a passage of Scripture, write down things that you notice. It could be other parts of the Bible that relate to what you are reading, things about God, repetition of words, or anything else. Reread the passage and write down anything you have questions about. It could be about a person, a word, geography or anything else. If you are reading the same passage as someone else, share your observations with them and work together to answer your questions.</p>`
+  },
+  {
+    'key': DataKey.up,
+    'title': 'The Lord’s Prayer',
+    'what': `<p>Praying the prayer that Jesus taught his disciples when they asked him how to pray.</p>`,
+    'how': `<p>Read through the Lord’s Prayer from Matthew 6:5-14:<br>
+    “And when you pray, do not be like the hypocrites, for they love to pray standing in the synagogues and on the street corners to be seen by others. Truly I tell you, they have received their reward in full. But when you pray, go into your room, close the door and pray to your Father, who is unseen. Then your Father, who sees what is done in secret, will reward you. And when you pray, do not keep on babbling like pagans, for they think they will be heard because of their many words. Do not be like them, for your Father knows what you need before you ask him.<br>
+    “This, then, is how you should pray:<br>
+    ‘Our Father in heaven,<br>
+    hallowed be your name,<br>
+     your kingdom come,<br>
+    your will be done,<br>
+      on earth as it is in heaven.<br>
+    Give us today our daily bread.<br>
+    And forgive us our debts,<br>
+      as we also have forgiven our debtors.<br>
+    And lead us not into temptation,[a]<br>
+      but deliver us from the evil one.[b]’<br>
+    For if you forgive other people when they sin against you, your heavenly Father will also forgive you. But if you do not forgive others their sins, your Father will not forgive your sins.”
+    </p>
+    <p>
+    Jesus assumes his disciples will pray. He then reminds us that much of our prayer life is to be like an iceberg, under the surface and secret, and not self-promotional. He then teaches us his prayer...<br>
+      <ul>
+        <li>Go to a quiet place and pray the Lord’s Prayer daily for the next week or month- Say it slowly and let it form you.</li>
+        <li>Pray the Lord’s Prayer with your family at meals or at the end of missional community for the rest of the year. Say it slowly and let it form you.</li>
+        <li>Read the prayer in different translations and memorize it in that new translation.</li>
+      <ul>
+    </p>`
+  },
+
+
+
   {
     'key': DataKey.in,
     'title': 'APEST',
@@ -205,19 +260,6 @@ export const practiceData: PracticeModel[] = [
     <p>How do I forgive others when they hurt me? It helps to understand that often people who hurt, are acting out of the pain they have experienced; pain that breaks God’s heart.  God doesn’t want any one created in His image to live a life of pain and hurt, that was never His plan for anyone.</p>`,
     'how': `<p>Offering grace to yourself: Ask God for the desire to change. Consider sharing with a trusted friend what sin you are confessing and ask them to pray for you.</p>
     <p>Offering grace to others: Ask God to help you see the person through His eyes and for the desire to forgive. Ask Him to give you love, perception, and compassion that will help you respond in a way that imitates Jesus.</p>`
-  },
-  {
-    'key': DataKey.in,
-    'title': 'S.T.O.P. Method for Bible Study',
-    'what': `<p>A method for helping you understand what you are reading in the Bible.</p>`,
-    'how': `<p>What does it <b>SAY</b>?<br>
-    Think about what the words actually say and look up the meanings of any words you don’t know.</p>
-    <p>What were the <b>TIMES</b>?<br>
-    Consider what the times were like when the passage was written. What was the time period in history? What events were happening? What was important to the people at that time? It’s a great idea to look up this info in a reliable source.</p>
-    <p>What did it mean <b>ORIGINALLY</b>?<br>
-    Consider what the Bible passage meant when it was written. Think about who wrote it, who it was written for, and what it would have meant to people then.</p>
-    <p>What does it mean for me <b>PERSONALLY</b>?<br>
-    Think about what the Bible passage means for you personally. Knowing what you learned in the other steps, what can you learn and act on in your own life?</p>`
   },
   {
     'key': DataKey.in,
@@ -243,29 +285,15 @@ export const practiceData: PracticeModel[] = [
   },
   {
     'key': DataKey.in,
-    'title': 'BELLS – 5 Missional Habits ',
-    'what': `<p>From Michael Frost’s <i><a href="http://www.rupertsland.ca/wp-content/uploads/The-5-Habits-of-Highly-Missional-People-11.pdf" target="_blank">Five Habits of Highly Missional People</a></i></p>
-    <p>There was a time when church bells could be heard ringing out over the community alerting people to God’s activity. While this isn’t as common as it once was, these simple habits can help transform our lives into everyday reminders that God’s Kingdom is coming here on earth as it is in heaven.</p>`,
-    'how': `<p><b>B</b>less: <i>I will bless at least three people this week, including one person who is not yet a disciple of Jesus.</i><br>
- - Blessing may include: Words of affirmation, Intentional acts of kindness or Gifts.</p>
-
-<p><b>E</b>at: <i>I will eat three meals this week with others, including one person who is not yet a disciple of Jesus.</i></p>
-
-<p><b>L</b>isten to the Spirit: <i>I will spend time this week listening to the voice of the Holy Spirit.</i><br>
- - Set aside a designated time. Eliminate distraction. Let God in. Follow God’s promptings.</p>
-
-<p><b>L</b>earn Christ: <i>I will spend time this week learning Christ.</i><br>
- - Study the Gospels Become a student of Jesus.</p>
-
-<p><b>S</b>ent: <i>I will spend some time this week journaling about the ways I partnered with God to alert people to the reign of Christ.<i><br>
- - How did I create beauty? How did you work for justice? How did I bring reconciliation? </p>`
+    'title': 'Sharing Stories',
+    'what': `<p>Getting to know one another by taking the time to let community members share their life story with one another.</p>`,
+    'how': `<p>There are lots of ways to give everyone the opportunity to tell their story. You can give each person a whole night and as long as they want to share, or give people a set time limit. The goal is to get to know each other and how you have all ended up where you are in life right now. Always make sure to give space for questions and close by spending time praying over whoever has shared.</p>`
   },
-
   {
     'key': DataKey.in,
-    'title': 'Observations and Questions',
-    'what': `<p>Making observations and asking questions about the Bible as you read it to help you gain understanding and insight.</p>`,
-    'how': `<p>As you read through a passage of Scripture, write down things that you notice. It could be other parts of the Bible that relate to what you are reading, things about God, repetition of words, or anything else. Reread the passage and write down anything you have questions about. It could be about a person, a word, geography or anything else. If you are reading the same passage as someone else, share your observations with them and work together to answer your questions.</p>`
+    'title': 'Anointing',
+    'what': `<p>Anointing is a Biblical symbol of God being with people. The Bible says we are anointed by God (1 Cor 1:21-22) and that we can anoint people who are sick to be healed (Jam 5:14). Chief Priests were anointed with oil when they moved into that role (Ex 29:7). Today, anointing someone with oil is a powerful symbol of God’s intention to work in and through us.</p>`,
+    'how': `<p>As someone shares a place they are experiencing a hard circumstance or challenge, they may want or be open to receiving an anointing. With some oil (any kind will work!), make the symbol of the cross on the person’s forehead while praying for them. The prayer doesn’t need to be complex, but pray that they would have strength and the Spirit’s guidance/healing/wisdom in whatever they are facing.</p>`
   },
 
 
@@ -393,5 +421,46 @@ export const practiceData: PracticeModel[] = [
       <li>Judgmental</li>
       <li>Points out all the wrongs</li>
     </ul></p>`
-  }
+  },
+  {
+    'key': DataKey.out,
+    'title': 'Blessing in Secret',
+    'what': `<p>In Matthew 6:1-4, Jesus describes the discipline of giving to the poor. There is an expectation of secrecy or at very least not self-promotion:<br>
+    “Be careful not to practice your righteousness in front of others to be seen by them. If you do, you will have no reward from your Father in heaven.”<br>
+    “So when you give to the needy, do not announce it with trumpets, as the hypocrites do in the synagogues and on the streets, to be honored by others. Truly I tell you, they have received their reward in full.  But when you give to the needy, do not let your left hand know what your right hand is doing, so that your giving may be in secret. Then your Father, who sees what is done in secret, will reward you.”<br>
+    </p>`,
+    'how': `<p>Practice the discipline of secrecy in the following way, knowing that you gave this act of service just for Jesus to help someone.
+    <ul>
+      <li>Try writing an encouraging note without signing the note.</li>
+      <li>Try sending money to someone without signing in the card or note.</li>
+      <li>Pay the toll for the person behind you at a toll both.</li>
+      <li>Pick up the check for someone in a restaurant on your way out</li>
+      <li>Ding dong Serve- Ring the doorbell, run and leave cookies, money or groceries!</li>
+    </ul></p>`
+  },
+  {
+    'key': DataKey.out,
+    'title': 'Who is my one?',
+    'what': `<p>When we understand God’s heart for humanity it can all seem a little overwhelming. Are we supposed to meet every need we see all of the time? Most of us can’t operate that way and need to simplify how we try to care for the world around us. This is a practice to help bring focus to the place and person God is calling us to love intentionally.</p>`,
+    'how': `<p>Start praying about the place God is calling you to. It could be your workplace, your neighborhood, a local school, or anywhere you have relationships and can spend time regularly. As God makes the place clear to you, begin to ask God for the one person you should be reaching out to. As you begin to hear who that person is, share it with a few people you trust so they also can begin praying for you and that person.</p>`
+  },
+  {
+    'key': DataKey.out,
+    'title': 'BELLS – 5 Missional Habits ',
+    'what': `<p>From Michael Frost’s <i><a href="http://www.rupertsland.ca/wp-content/uploads/The-5-Habits-of-Highly-Missional-People-11.pdf" target="_blank">Five Habits of Highly Missional People</a></i></p>
+    <p>There was a time when church bells could be heard ringing out over the community alerting people to God’s activity. While this isn’t as common as it once was, these simple habits can help transform our lives into everyday reminders that God’s Kingdom is coming here on earth as it is in heaven.</p>`,
+    'how': `<p><b>B</b>less: <i>I will bless at least three people this week, including one person who is not yet a disciple of Jesus.</i><br>
+ &nbsp; &nbsp; &nbsp; Blessing may include: Words of affirmation, Intentional acts of kindness or Gifts.</p>
+
+<p><b>E</b>at: <i>I will eat three meals this week with others, including one person who is not yet a disciple of Jesus.</i></p>
+
+<p><b>L</b>isten to the Spirit: <i>I will spend time this week listening to the voice of the Holy Spirit.</i><br>
+ &nbsp; &nbsp; &nbsp; Set aside a designated time. Eliminate distraction. Let God in. Follow God’s promptings.</p>
+
+<p><b>L</b>earn Christ: <i>I will spend time this week learning Christ.</i><br>
+&nbsp; &nbsp; &nbsp; Study the Gospels Become a student of Jesus.</p>
+
+<p><b>S</b>ent: <i>I will spend some time this week journaling about the ways I partnered with God to alert people to the reign of Christ.<i><br>
+&nbsp; &nbsp; &nbsp; How did I create beauty? How did you work for justice? How did I bring reconciliation? </p>`
+  },
 ];

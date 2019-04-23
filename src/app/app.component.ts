@@ -12,13 +12,11 @@ import { Platform } from '@ionic/angular';
 })
 export class AppComponent implements OnInit {
     pages = [
-        { title: 'Home', url: '/', ionIcon: 'home' },
+        { title: 'Home', url: '/home', ionIcon: 'home' },
         { title: 'Up', url: '/up', iconCss: 'letter-icon up' },
         { title: 'In', url: '/in', iconCss: 'letter-icon in' },
         { title: 'Out', url: '/out', iconCss: 'letter-icon out' },
-        // { title: 'Login', url: '/login', icon: 'log-in' },
         { title: 'Contact', url: '/contact', ionIcon: 'person' }
-        // { title: 'About', url: '/tabs/about', icon: 'information-circle' }
     ];
 
     constructor(
@@ -34,7 +32,7 @@ export class AppComponent implements OnInit {
         this.router.events.subscribe((event: RouterEvent) => {
             if (event instanceof NavigationEnd) {
                 this.pages.map(p => {
-                    return (p['active'] = event.url === p.url);
+                    return (p['active'] = event.url.startsWith(p.url));
                 });
             }
         });

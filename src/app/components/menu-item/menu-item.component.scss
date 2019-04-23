@@ -1,3 +1,12 @@
+
+  ion-item {
+    border-bottom: solid rgba(0,0,0,0.13) 1px;
+
+    ion-label {
+      border-style: none;
+    }
+  }
+
 .active-item {
   border-left: 8px solid var(--ion-color-primary);
 }

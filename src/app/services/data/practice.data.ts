@@ -4,7 +4,7 @@ import { PracticeModel } from './models/practice.model';
 export const practiceData: PracticeModel[] = [
   {
     'key': DataKey.up,
-    'title': 'Prayer Cards - Don Lind',
+    'title': 'Prayer Cards',
     'what': '<p>Writing down your prayers so that you can look back and see the way God has been answering your prayers.</p>',
     'how': '<p>Write your prayers on 3X5 card. At end of a month, review the prayer cards and jot a note of response on the back side:  a thanksgiving, a praise, a confession, a resolution.  Do not be a slave to the process. If at the end of a month there are not 30 cards, God is good! Not all cards need a response; let the Spirit guide.</p>'
   },
@@ -249,7 +249,7 @@ export const practiceData: PracticeModel[] = [
     E – Evangelist<br>
     S – Shepherd<br>
     T – Teacher</p>`,
-    'how': `<p><a href="http://fivefoldsurvey.com/" target="_blank">Take the test</a> to learn more about how God wired you! Learn more <a href="http://theforgottenways.org/apest/" target="_blank">here</a>.</p>`
+    'how': `<p><a href="http://fivefoldsurvey.com/" target="_blank">Take the test</a> to learn more about how God wired you! Learn more <a href="https://www.theforgottenways.org/what-is-apest.aspx" target="_blank">here</a>.</p>`
   },
   {
     'key': DataKey.in,
@@ -350,7 +350,7 @@ export const practiceData: PracticeModel[] = [
       <li>Dinner Club – 3-6 couples take turns hosting monthly dinners for a year. No kids!</li>
       <li>Brai – all day gathering of friends for brunch and grill out.</li>
     </ul></p>
-    <p>-Excerpts taken from <a href="http://hughhalter.com/books.htm" target="_blank">“Happy Hour” by Hugh Halter</a></p>`
+    <p>-Excerpts taken from “Happy Hour” by Hugh Halter</p>`
   },
   {
     'key': DataKey.out,

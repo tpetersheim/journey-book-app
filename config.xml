@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.journeymennonite.replicatejesus" version="1.1.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.journeymennonite.replicatejesus" version="1.1.1" android-versionCode="190111"
+    xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <!-- android-versionCode = minSDK (19) and version padded to 4 digits-->
     <name>Replicate Jesus</name>
     <description>Replicate Jesus Discipleship Book by Journey Mennonite Church</description>
     <author email="journeymennotech@journeymennonite.org" href="http://journeymennonite.org">Journey Mennonite Church</author>

@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
 import { MenuItemComponent } from './components/menu-item/menu-item.component';
 import { PracticeComponent } from './components/practice/practice.component';
 import { AboutComponent } from './components/shared/about/about.component';
@@ -38,6 +39,7 @@ import { UpComponent } from './up/up.component';
         ContactPage,
         ExternalLinksDirective,
         HomePage,
+        HeaderComponent,
         InAboutComponent,
         InComponent,
         InPracticeComponent,
